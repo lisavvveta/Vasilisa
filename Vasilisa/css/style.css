@@ -3,7 +3,7 @@ html, body{
     padding: 0;
     text-align: center;
     font-family: "Calibri", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     color: #000;
     text-transform: uppercase;
     background: #FFFFE0;
@@ -35,7 +35,7 @@ header{
 }
 
 .logotyp{
-    width: 400px;
+    width: 500px;
     height: auto;
     display: flex;
     justify-content: flex-end;
@@ -50,7 +50,7 @@ header{
 
 .tell{
     width: auto;
-    font-size: 16px;
+    font-size: 20px;
     margin: 5px;
 }
 
@@ -90,9 +90,16 @@ span.header-cart-coll {
     width: 100%;
 }
 
+.menu a{
+    text-decoration: underline #228B22;
+    font-weight: bold;
+    font-size: 23px;
+    margin: 15px;
+}
+
 .katalog{
    width: 45%;
-   margin-top: 25px;
+   margin-top: 5px;
    float: left;
    position: relative;
    list-style: none;
@@ -102,7 +109,7 @@ span.header-cart-coll {
 .katalog a{
   display: block;
   background-color: #228B22;  
-  padding: 10px 10px;
+  padding: 15px 10px;
   text-decoration: none;
   color: #fff;
   border: 1px solid #fff;
@@ -134,4 +141,13 @@ span.header-cart-coll {
   opacity: 1;
   visibility: visible;
   top:0;
+}
+
+.search{
+    font-size: 20px;
+    margin: 15px;
+}
+.map{
+    border: 5px;
+    border-color:#228B22;
 }
