@@ -17,6 +17,11 @@ html, body{
     align-content: center;
 }
 
+a{
+   text-decoration: none;
+    
+}
+
 div{
     background:...;
 }
@@ -41,12 +46,68 @@ header{
     
 }
 
-.entrance{
+.href-box{
     margin: auto;
-    display: flex;
-    justify-content: flex-start;
-    
+}
+
+section{
+    display: block;
+}
+
+.basket{
+    margin: 50px;
+   
 }
 .PunctMenu{
     
+}
+
+.menu{
+     float: left;
+     position: relative;
+     list-style: none;
+     width: 200px;
+}
+
+ul {
+     padding: 0;
+     margin: 0;
+     list-style: none;
+}
+
+.menu a{
+  display: block;
+  background-color: #228B22;  
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 0.5s all;
+  top:0;
+}
+
+.menu a:hover {
+    background: #1E90FF;
+    height: 20px;
+    top:0;
+}
+.menu_li{
+  position: relative; 
+  margin-top: 0;
+  min-height: inherit;
+}
+
+.menu_li_elem{
+  position: absolute;
+  width: 100%;
+  left: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s opacity;
+}
+
+.menu_li:hover .menu_li_elem{
+  opacity: 1;
+  visibility: visible;
+  top:0;
 }
