@@ -3,7 +3,7 @@ html, body{
     padding: 0;
     text-align: center;
     font-family: "Calibri", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: #000;
     text-transform: uppercase;
     background: #FFFFE0;
@@ -22,12 +22,8 @@ html, body{
 a{
    text-decoration: none;
     color: #000;
-    
 }
 
-div{
-    background:...;
-}
 
 header{
     display: inline-flex;
@@ -52,6 +48,9 @@ header{
     width: auto;
     font-size: 20px;
     margin: 5px;
+    color: #FFF;
+    background-color: #228B22;
+    border: 4px solid #FF0000;	
 }
 
 .href-box{
@@ -64,8 +63,7 @@ section{
 }
 
 .basket{
-    margin: 50px;
-   
+    margin: 10px;
 }
 
 ul {
@@ -98,12 +96,12 @@ span.header-cart-coll {
 }
 
 .katalog{
-   width: 45%;
+   width: 55%;
    margin-top: 5px;
    float: left;
    position: relative;
    list-style: none;
-   width: 200px;
+   width: 250px;
 }
 
 .katalog a{
@@ -115,17 +113,22 @@ span.header-cart-coll {
   border: 1px solid #fff;
   transition: 0.5s all;
   top:0;
+  line-height: 40px;
 }
 
 .katalog a:hover {
     background: #1E90FF;
     height: 20px;
     top:0;
+    font-weight:normal;
+    line-height: 40px;
 }
 .katalog_li{
   position: relative; 
   margin-top: 0;
   min-height: inherit;
+  font-weight:normal;
+   
 }
 
 .katalog_li_elem{
@@ -135,6 +138,7 @@ span.header-cart-coll {
   visibility: hidden;
   opacity: 0;
   transition: 0.5s opacity;
+  min-height: 60px;
 }
 
 .katalog_li:hover .katalog_li_elem{
@@ -142,6 +146,87 @@ span.header-cart-coll {
   visibility: visible;
   top:0;
 }
+
+.block{
+    display: flex;
+      justify-content: space-between;
+
+     width: 55%;
+    float: right;
+    }
+
+.slide {
+        width: 500px;
+        height: 300px;
+        border: 1px solid #888;
+        position: relative;
+        text-align: center;
+    }
+
+	.slide  input {
+        display: none;
+    }
+
+    .slide  input + label {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 8px;
+        background: rgba(90, 90, 90, 0.8);
+        border: 2px solid rgba(190, 190, 190, 0.8);
+        cursor: pointer;
+        z-index: 100;
+        position: relative;
+        margin-right: 4px;
+        top: 90%;
+        transition: background 0.8s ease-out 0s;
+    }
+
+    .slide  input + label:hover {
+        background: rgba(250, 250, 250, 0.8);
+    }
+
+    .slide  input:checked + label {
+        background: rgba(220, 220, 220, 0.8);
+    }
+	
+    .slide  div {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 0;
+    }
+	
+    .slide  div {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+    }
+
+    .img1 {
+        width:500px;
+		height:300px;
+    }
+	
+    .slide  input:checked + label + div {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+    }
+	
+    .slide  div  p {
+        position: absolute;
+		font-size:18px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+        color: #fff;
+        text-shadow: 2px 2px 3px #222;
+    }
+
 
 .search{
     font-size: 20px;
