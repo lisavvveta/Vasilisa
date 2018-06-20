@@ -84,6 +84,11 @@ span.header-cart-coll {
     font-size: 18px;
 }
 
+.konteiner{
+   display: flex;
+   flex-direction: row; 
+}
+
 .menu{
     width: 100%;
 }
@@ -128,7 +133,6 @@ span.header-cart-coll {
   margin-top: 0;
   min-height: inherit;
   font-weight:normal;
-   
 }
 
 .katalog_li_elem{
@@ -149,15 +153,18 @@ span.header-cart-coll {
 
 .block{
     display: flex;
-      justify-content: space-between;
-
-     width: 55%;
+    justify-content: flex-end;
+    position: relative;
+    position: 50%;
     float: right;
+    position: inherit;
+    width: 30%;
     }
 
 .slide {
-        width: 500px;
-        height: 300px;
+        width: 30%;
+        width: 1000px;
+        height: 600px;
         border: 1px solid #888;
         position: relative;
         text-align: center;
@@ -227,12 +234,21 @@ span.header-cart-coll {
         text-shadow: 2px 2px 3px #222;
     }
 
-
 .search{
     font-size: 20px;
     margin: 15px;
 }
+
 .map{
     border: 5px;
     border-color:#228B22;
 }
+
+p{
+    text-align: left;
+}
+
+div{
+    margin: 20px;  
+}
+
