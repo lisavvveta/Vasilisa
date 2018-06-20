@@ -104,7 +104,7 @@ span.header-cart-coll {
    justify-content: center;
    margin-left: 100px;
    margin-right: 10px;
-    
+   text-shadow: 1px 1px 40px #4682B4;
 }
 
 .menu a{
