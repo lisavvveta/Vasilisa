@@ -172,7 +172,7 @@ span.header-cart-coll {
 }
 
 .block{
-    display: flex;
+    display: block;
     justify-content: flex-end;
     position: relative;
     position: 50%;
@@ -190,11 +190,11 @@ span.header-cart-coll {
         margin-left: 230px;
     }
 
-	.slide  input {
+.slide  input {
         display: none;
     }
 
-    .slide  input + label {
+.slide  input + label {
         display: inline-block;
         width: 10px;
         height: 10px;
@@ -209,15 +209,15 @@ span.header-cart-coll {
         transition: background 0.8s ease-out 0s;
     }
 
-    .slide  input + label:hover {
+.slide  input + label:hover {
         background: rgba(250, 250, 250, 0.8);
     }
 
-    .slide  input:checked + label {
+.slide  input:checked + label {
         background: rgba(220, 220, 220, 0.8);
     }
 	
-    .slide  div {
+.slide  div {
         position: absolute;
         top: 0px;
         left: 0px;
@@ -226,26 +226,26 @@ span.header-cart-coll {
         z-index: 0;
     }
 	
-    .slide  div {
+.slide  div {
         visibility: hidden;
         opacity: 0;
         transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
     }
 
-    .img1 {
+.img1 {
         width:1000px;
 		height:600px;
         border: 10px solid #1E90FF;
         box-shadow: 12px 12px 18px #222;
     }
 	
-    .slide  input:checked + label + div {
+.slide  input:checked + label + div {
         visibility: visible;
         opacity: 1;
         transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
     }
 	
-    .slide  div  p {
+.slide  div  p {
         position: absolute;
 		font-size: 20px;
         top: 0px;
@@ -272,4 +272,10 @@ p{
 
 div{
     margin: 20px;  
+}
+
+h2{
+   text-align: center;
+   margin: auto;
+    padding-top: 5px;
 }
