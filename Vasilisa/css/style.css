@@ -279,3 +279,9 @@ h2{
    margin: auto;
     padding-top: 5px;
 }
+
+
+fieldset{
+   display: flex;
+    align-items: center;
+}

@@ -141,17 +141,19 @@
                  </ul>
                </div>
                <div class=" block">
-                   <h2>Регистрация</h2>
-                   <p>Если вы еще не зарегистрировались то пройдите по этой ссылке</p>
+                  <fieldset>
+                      <legend> <h2> не зарегестрированный клиент</h2></legend>
+                      <strong>Если вы еще не зарегистрировались то пройдите по этой ссылке</strong><br>
                    <a class="registration" href="registration.html">
                        регистрация
                    </a>
+                   </fieldset>
                </div>
               <div class=" block">
-                  	<div id="content">		
-					<h2>Зарегистрированный клиент</h2>
+                  	<div id="content">	
+                  	 <fieldset>
+                         <legend><h2> Зарегистрированный клиент </h2></legend>	
 					<strong>Войти в Личный Кабинет</strong>
-				</div>
 				<form action="http://127.0.0.1:58793/html/login.html" method="post" enctype="multipart/form-data">
 				<div class="form-group">
 					<label class="control-label" for="input-email">E-Mail</label>
@@ -164,7 +166,8 @@
 					<a href="">Забыли пароль?</a></div>
 				<input type="submit" value="Войти" class="btn btn-primary" />
                 </form>		
-                </div>
+               </fieldset>
+               </div>
                </section>
       </main>
       <footer>
