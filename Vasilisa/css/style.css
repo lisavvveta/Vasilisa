@@ -77,9 +77,29 @@ section{
 }
 
 .basket{
-    margin-left: 150px;
-    margin-top: -10px;
+    margin-left: 100px;
+    margin-top: 0px;
     position: absolute;
+    width: 80px;
+}
+
+.hidden{
+    background: #6B8E23;
+    border: 1px solid #000;
+    position: absolute;
+    left: 50%;
+    width: 250px;
+    margin-top: -15px;
+    text-align: center;
+    padding: 10px 0 10px 10px;
+    box-shadow: 12px 12px 18px #222;
+    transition: 1s;
+    transform: translateY(-200%)
+    
+}
+
+.basket:hover .hidden{
+    transform: translateY(0);
 }
 
 ul {
@@ -284,22 +304,7 @@ h2{
 
 fieldset{
    display: flex;
-    align-items: center;
-}
-
-.hidden{
-    position: absolute;
-    width: 100%;
-    left: 100%;
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.5s opacity;
-}
-
-.basket:hover .hidden{
-    opacity: 1;
-    visibility: visible;
-    top:0;
+   align-items: center;
 }
 
 .footer{
