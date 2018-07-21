@@ -16,6 +16,4 @@ function AddWord() {
 const form = document.getElementById('form')
 form.addEventListener('submit', event => {
 event.preventDefault()
-// ...code
-    console.log(event)
 })
