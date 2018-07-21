@@ -13,6 +13,9 @@ function AddWord() {
          return re.test(mail);
 }
 
-document.getElementById("submit").addEventListener("click", function(event){
-    event.preventDefault()
-});
+const form = document.getElementById('form')
+form.addEventListener('submit', event => {
+event.preventDefault()
+// ...code
+    console.log(event)
+})
