@@ -2,33 +2,30 @@
  <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Vasilisa</title>
+    <title>Мебель Василиса</title>
      <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-     <link rel="stylesheet" href="/css/style.css" >
+     <link rel="stylesheet" href="style.css" >
   </head>
   <body>
-      <header class="header">
-          <div class="company"><img class="logotyp" src="/img/%D0%B2%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D1%81%D0%B0.png" width="700" alt="logotyp"> </div>
+       <header class="header">
+          <div class="company"><img class="logotyp" src="%D0%B2%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D1%81%D0%B0.png" width="700" alt="logotyp"> </div>
           <div class="href-box">
           <section class="basket">
-              <p class="basket"> <img id="corner"  src="/img/%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D0%B0.png" width="80" onclick="toggle(hidden_content)"> Корзина (<span class="count">0</span>)</p>
+              <p class="basket"> <img id="corner"  src="%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D0%B0.png" width="100" onclick="toggle(hidden_content)"> Корзина (<span class="count">0</span>)</p>
               <div  class="hidden" id="hidden_content">
                   <p>Товаров:<span class="count">0</span> </p>
                   <p>На сумму: <span price="0" id="price">0</span> </p>
-                  <a href=""> Оформить</a>
+                  <a href="order.html"> <button> Заказать звонок</button></a>
               </div>
               </section>
-            <a data-modal-form="enter-form-box" data-modal-action="refresh" class="user-lk" href="/html/login.html">
-            <img alt="" src="/img/%D0%B2%D1%85%D0%BE%D0%B42.png" width="80" > Вход</a>
           </div>
       </header>
       <main class="kontent">
           <section class="menu">
              <div class="navigation">
                  <a class="punct_menu" href="index.html"> Главная </a>
-                  <a class="punct_menu" href="delivery.html">Доставка</a>
-                  <a class="punct_menu" href=""> Как заказать</a>
-                  <a class="punct_menu" href="">Наши услуги</a>
+                  <a class="punct_menu" href="order.html"> Как заказать</a>
+                  <a class="punct_menu" href="servis.html">Наши услуги</a>
                   <a class="punct_menu" href="comments.html">Отзывы</a>
                   <a class="punct_menu" href="feedback.html">Контакты</a>
               </div>
@@ -43,7 +40,7 @@
               <div class="katalog">
                  <ul class="punct_katalog">
                      <li class="katalog_li">
-                         <a  href=""> Мягкая </a>
+                         <a  href="catalog.html"> Мягкая </a>
                          <ul class="katalog_li_elem">
                              <li class="">
                                  <a href="">Диваны</a>
@@ -64,9 +61,6 @@
                                  <a href="">Мини диваны</a>
                              </li>
                              <li class="">
-                                 <a href="">Софы-тахты-кушетки</a>
-                             </li>
-                             <li class="">
                                  <a href="">Детская</a>
                              </li>
                              <li class="">
@@ -74,8 +68,11 @@
                              </li>
                          </ul>
                      </li>
+					 <li class="katalog_li">
+                         <a href="krovaty.html"> Кровати </a>
+					 </li>
                      <li class="katalog_li">
-                         <a href=""> Корпусная мебель </a>
+                         <a href=""> Корпусная </a>
                          <ul class="katalog_li_elem">
                              <li class="">
                                  <a href="">Гостинная</a>
@@ -98,7 +95,7 @@
                      <a href="">Кованные кровати</a>
                      </li>
                      <li class="katalog_li">
-                         <a class="katalog_li" href=""> Хромированная мебель </a>
+                         <a class="katalog_li" href=""> Хромированная </a>
                          <ul class="katalog_li_elem">
                              <li class="">
                                  <a href="">Столы</a>
@@ -127,13 +124,16 @@
                      <a href=""> Матрасы</a>
                      </li>
                      <li class="katalog_li">
-                     <a href=""> Шкафы купе </a>
+                     <a href=""> Шкафы</a>
                          <ul class="katalog_li_elem">
                              <li class="">
-                                 <a href="">Готовые решения</a>
+                                 <a href="shkaf-kupe.html">Шкафы купе</a>
                              </li>
                              <li class="">
-                                 <a href="">Встроенные</a>
+                                 <a href="">Шкафы 2-створчатые</a>
+                             </li>
+							 <li class="">
+                                 <a href="">Шкафы 3-створчатые</a>
                              </li>
                          </ul>
                      </li>
@@ -145,25 +145,24 @@
                   <div class='slide' >
                         <input type="radio" name="slider2" id="slider2_1" checked="checked">
                         <label for="slider2_1"></label>
-                        <div> <p>слайд 1</p> <img class="img1" src="/img/katalog/1.png"></div>
+                        <div> <img class="img1" src="1.png"></div>
                         <label for="slider2_2"></label>
                         <input type="radio" name="slider2" id="slider2_2">
                         <label for="slider2_2"></label>
-                        <div><img class="img1"  src="/img/katalog/2.png"></div>
+                        <div><img class="img1"  src="2.png"></div>
                         <label for="slider2_3"></label>
                         <input type="radio" name="slider2" id="slider2_3">
                         <label for="slider2_3"></label>
-                        <div> <img class="img1" src="/img/katalog/3.png"></div>
+                        <div> <img class="img1" src="3.png"></div>
                         <label for="slider2_4"></label>
                     </div>
           </section>
       </main>
           <footer>
          <div class="footer">
-              <span> <a href="/html/politika_konfidecialnosti.html"> Политика конфиденциальности</a></span>
+              <span> <a href="politika_konfidecialnosti.html"> Политика конфиденциальности</a></span>
              <h5><a href="feedback.html">Связаться с нами</a></h5>
              <h5><a href="comments.html">Написать отзыв</a></h5>
-             <h5><a href="login.html">Логин</a></h5>
               <h3>Василиса мебель 2018</h3>
           </div>
           <div class="tellBlock">
@@ -175,5 +174,13 @@
              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2845.5359854746466!2d103.06417349678709!3d53.14966571531314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d06c661f260749b%3A0x3edc2bbf4d2280bd!2z0KLQlCDQkNC70LXQvdC60LAg0YHRgtGD0LTQuNGPINC80LXQsdC10LvQuCDQktCw0YHQuNC70LjRgdCwIQ!5e0!3m2!1sru!2sru!4v1529390713241" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
       </footer>
-      <script src="/script.js"></script>
+	  <?php
+			header("Content-Type:text/html; charset=UTF8");
+			include 'config.php';
+			include 'function.php';
+			db (HOST, USER, PASS,DB);
+			fuction my_func () {
+			
+			}
+	?>
   </body>
