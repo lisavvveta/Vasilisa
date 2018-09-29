@@ -339,10 +339,8 @@ fieldset {
     z-index: 3;
 }
 
-.image-prod p {
-    text-align: center;
+.image-prod p{
+	text-align: center;
     margin: 2px;
 }
 
-    
-}
