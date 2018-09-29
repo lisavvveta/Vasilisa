@@ -1,150 +1,145 @@
 <!DOCTYPE html>
- <html lang="ru">
-  <head>
+<html lang="ru">
+
+<head>
     <meta charset="utf-8">
     <title>Мебель Василиса</title>
-     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-     <link rel="stylesheet" href="style.css" >
-  </head>
-  <body>
-       <header class="header">
-          <div class="company"><img class="logotyp" src="%D0%B2%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D1%81%D0%B0.png" width="700" alt="logotyp"> </div>
-          <div class="href-box">
-          <section class="basket">
-              <p class="basket"> <img id="corner"  src="%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D0%B0.png" width="80" onclick="toggle(hidden_content)"> Корзина (<span class="count">0</span>)</p>
-              <div  class="hidden" id="hidden_content">
-                  <p>Товаров:<span class="count">0</span> </p>
-                  <p>На сумму: <span price="0" id="price">0</span> </p>
-                  <a href="order.html"> Заказать звонок</a>
-              </div>
-              </section>
-          </div>
-      </header>
-      <main class="kontent">
-          <section class="menu">
-              <div class="navigation">
-                 <a class="punct_menu" href="index.html"> Главная </a>
-                  <a class="punct_menu" href="order.html"> Как заказать</a>
-                  <a class="punct_menu" href="servis.html">Наши услуги</a>
-                  <a class="punct_menu" href="comments.html">Отзывы</a>
-                  <a class="punct_menu" href="feedback.html">Контакты</a>
-              </div>
-              <div>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="company"><img class="logotyp" src="/img/%D0%B2%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D1%81%D0%B0.png" width="700" alt="logotyp"> </div>
+        <div class="href-box">
+            <section class="basket">
+                <p class="basket"> <img id="corner" src="/img/%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D0%B0.png" width="80" onclick="toggle(hidden_content)"> Корзина (<span class="count">0</span>)</p>
+                <div class="hidden" id="hidden_content">
+                    <p>Товаров:<span class="count">0</span> </p>
+                    <p>На сумму: <span price="0" id="price">0</span> </p>
+                    <a href="order.html"> Заказать звонок</a>
+                </div>
+            </section>
+        </div>
+    </header>
+    <main class="kontent">
+        <section class="menu">
+            <div class="navigation">
+                <a class="punct_menu" href="index.html"> Главная </a>
+                <a class="punct_menu" href="order.html"> Как заказать</a>
+                <a class="punct_menu" href="servis.html">Наши услуги</a>
+                <a class="punct_menu" href="comments.html">Отзывы</a>
+                <a class="punct_menu" href="feedback.html">Контакты</a>
+            </div>
+            <div>
                 <form>
-                   <p><input class="search" type="search" name="q" placeholder="Поиск по сайту"> 
-                   <input class="search" type="submit" value="Найти"></p>
+                    <p><input class="search" type="search" name="q" placeholder="Поиск по сайту">
+                        <input class="search" type="submit" value="Найти"></p>
                 </form>
-              </div>              
-           </section>
-           <section class="konteiner">
-              <div class="katalog">
-                 <ul class="punct_katalog">
-                     <li class="katalog_li">
-                         <a  href=""> Мягкая </a>
-                         <ul class="katalog_li_elem">
-                             <li class="">
-                                 <a href="">Диваны</a>
-                             </li>
-                             <li class="">
-                                 <a href="">Диваны угловые</a>
-                             </li>
-                             <li class="">
-                                 <a href="">Диваны трансформеры</a>
-                             </li>
-                             <li class="">
-                                 <a href="">Кресла</a>
-                             </li>
-                             <li class="">
-                                 <a href="">Кресло-кравати</a>
-                             </li>
-                             <li class="">
-                                 <a href="">Мини диваны</a>
-                             </li>
-                             <li class="">
-                                 <a href="">Детская</a>
-                             </li>
-                             <li class="">
-                                 <a href="">Модульная система</a>
-                             </li>
-                         </ul>
-                     </li>
-					  <li class="">
-                         <a href="krovaty.html">Кровати</a>
-                     </li>
-					 <li class="katalog_li">
-                         <a href="Comod.html"> Комод </a>
-					 </li>
-                     <li class="katalog_li">
-                         <a href=""> Корпусная  </a>
-                         <ul class="katalog_li_elem">
-                             <li class="">
-                                 <a href="">Гостинная</a>
-                             </li>
-                            <li class="">
-                                 <a href="">Прихожая</a>
-                             </li>
-                             <li class="">
-                                 <a href="">Детская</a>
-                             </li>
-                              <li class="">
-                                 <a href="">Спальня</a>
-                             </li> 
-                         </ul>
-                     </li>
-                     <li class="katalog_li">
-                     <a href="">Кухни</a>
-                     </li>
-                     <li class="katalog_li">
-                     <a href="">Кованные кровати</a>
-                     </li>
-                     <li class="katalog_li">
-                         <a class="katalog_li" href=""> Хромированная </a>
-                         <ul class="katalog_li_elem">
-                             <li class="">
-                                 <a href="">Столы</a>
-                             </li>
-                             <li class="">
-                                 <a href="">Стулья</a>
-                             </li>
-                             <li class="">
-                                 <a href="">Углы</a>
-                             </li>
-                             <li class="">
-                                 <a href="">Обувницы</a>
-                             </li>
-                             <li class="">
-                                 <a href="">Банкетки</a>
-                             </li>
-                             <li class="">
-                                 <a href="">Вешалки</a>
-                             </li>
-                             <li class="">
-                                 <a href="">Фотопечать материалы</a>
-                             </li>
-                         </ul>
-                     </li>
-                     <li class="katalog_li">
-                     <a href=""> Матрасы</a>
-                     </li>
-                     <li class="katalog_li">
-                     <a href=""> Шкафы</a>
-                         <ul class="katalog_li_elem">
-                             <li class="">
-                                 <a href="shkaf-kupe.html">Шкафы купе</a>
-                             </li>
-                             <li class="">
-                                 <a href="">Шкафы 2-створчатые</a>
-                             </li>
-							 <li class="">
-                                 <a href="">Шкафы 3-створчатые</a>
-                             </li>
-                         </ul>
-                     </li>
-                     <li class="katalog_li">
-                     <a href=""> Акции </a>
-                     </li>
-                 </ul>
-              </div>
+            </div>
+        </section>
+        <div class="katalog">
+            <ul class="punct_katalog">
+                <li class="katalog_li">
+                    <a href="soft.html"> Мягкая </a>
+                    <ul class="katalog_li_elem">
+                        <li class="">
+                            <a href="">Диваны</a>
+                        </li>
+                        <li class="">
+                            <a href="">Диваны угловые</a>
+                        </li>
+                        <li class="">
+                            <a href="">Диваны трансформеры</a>
+                        </li>
+                        <li class="">
+                            <a href="">Кресла</a>
+                        </li>
+                        <li class="">
+                            <a href="">Кресло-кравати</a>
+                        </li>
+                        <li class="">
+                            <a href="">Мини диваны</a>
+                        </li>
+                        <li class="">
+                            <a href="">Детская</a>
+                        </li>
+                        <li class="">
+                            <a href="">Модульная система</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="katalog_li">
+                    <a href="bed.html"> Кровати </a>
+                </li>
+                <li class="katalog_li">
+                    <a href=""> Корпусная </a>
+                    <ul class="katalog_li_elem">
+                        <li class="">
+                            <a href="">Гостинная</a>
+                        </li>
+                        <li class="">
+                            <a href="">Прихожая</a>
+                        </li>
+                        <li class="">
+                            <a href="">Детская</a>
+                        </li>
+                        <li class="">
+                            <a href="">Спальня</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="katalog_li">
+                    <a href="kitchen.html">Кухни</a>
+                </li>
+                <li class="katalog_li">
+                    <a class="katalog_li" href=""> Хромированная </a>
+                    <ul class="katalog_li_elem">
+                        <li class="">
+                            <a href="">Столы</a>
+                        </li>
+                        <li class="">
+                            <a href="">Стулья</a>
+                        </li>
+                        <li class="">
+                            <a href="">Углы</a>
+                        </li>
+                        <li class="">
+                            <a href="">Обувницы</a>
+                        </li>
+                        <li class="">
+                            <a href="">Банкетки</a>
+                        </li>
+                        <li class="">
+                            <a href="">Вешалки</a>
+                        </li>
+                        <li class="">
+                            <a href="">Фотопечать материалы</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="katalog_li">
+                    <a href=""> Матрасы</a>
+                </li>
+                <li class="katalog_li">
+                    <a href=""> Шкафы</a>
+                    <ul class="katalog_li_elem">
+                        <li class="">
+                            <a href="shkaf-kupe.html">Шкафы купе</a>
+                        </li>
+                        <li class="">
+                            <a href="">Шкафы 2-створчатые</a>
+                        </li>
+                        <li class="">
+                            <a href="">Шкафы 3-створчатые</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="katalog_li">
+                    <a href=""> Акции </a>
+                </li>
+            </ul>
+        </div>
         <div class="contact">
             <h3>Общество с ограниченной ответственностью «Король Лев» </h3>
             <h3>Иркутская обл. г Черемхово Первомайская 160</h3>
@@ -154,25 +149,25 @@
 
             <h3>Директор по сбыту и развитию 8 (964)800-56-45 Александра Семеновна ,</h3>
 
-           <h3>Mенеджер по работе с клиентами 8(952)614-15-15 Анна , Елена</h3>
+            <h3>Mенеджер по работе с клиентами 8(952)614-15-15 Анна , Елена</h3>
 
             <h3>Время работы с 10:00 до 19:00 по Иркутской обл .</h3>
-      </div>
-        </section> </main>
-          <footer>
-         <div class="footer">
-              <span> <a href="politika_konfidecialnosti.html"> Политика конфиденциальности</a></span>
-             <h5><a href="feedback.html">Связаться с нами</a></h5>
-             <h5><a href="comments.html">Написать отзыв</a></h5>
-              <h3>Василиса мебель 2018</h3>
-          </div>
-           <div class="tellBlock">
-              <button class="tell">  <a href="feedback.html">Tелефон Директора</a> 
-                  </button>
-              <button class="tell"><a class="email" href="https://e.mail.ru/compose/?to=korol_lev38@mail.ru">korol_lev38@mail.ru</a> </button>
-          </div>
-          <div class="map">
-             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2845.5359854746466!2d103.06417349678709!3d53.14966571531314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d06c661f260749b%3A0x3edc2bbf4d2280bd!2z0KLQlCDQkNC70LXQvdC60LAg0YHRgtGD0LTQuNGPINC80LXQsdC10LvQuCDQktCw0YHQuNC70LjRgdCwIQ!5e0!3m2!1sru!2sru!4v1529390713241" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-      </footer>
-  </body>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <span> <a href="politika_konfidecialnosti.html"> Политика конфиденциальности</a></span>
+            <h5><a href="feedback.html">Связаться с нами</a></h5>
+            <h5><a href="comments.html">Написать отзыв</a></h5>
+            <h3>Василиса мебель 2018</h3>
+        </div>
+        <div class="tellBlock">
+            <button class="tell"> <a href="feedback.html">Tелефон Директора</a>
+            </button>
+            <button class="tell"><a class="email" href="https://e.mail.ru/compose/?to=korol_lev38@mail.ru">korol_lev38@mail.ru</a> </button>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2845.5359854746466!2d103.06417349678709!3d53.14966571531314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d06c661f260749b%3A0x3edc2bbf4d2280bd!2z0KLQlCDQkNC70LXQvdC60LAg0YHRgtGD0LTQuNGPINC80LXQsdC10LvQuCDQktCw0YHQuNC70LjRgdCwIQ!5e0!3m2!1sru!2sru!4v1529390713241" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </footer>
+</body>
