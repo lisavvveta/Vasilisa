@@ -339,8 +339,5 @@ fieldset{
 
 .image-prod p{
 	text-align: center;
-}
-
-.product{
-	
+    margin: 2px;
 }
