@@ -1,3 +1,4 @@
+
 const furnit = (name, dimensions, prace, information, color, image) => ({
   name,
   dimensions,
@@ -23,5 +24,3 @@ new Vue({
     furniture: furniture,
     furnit: furniture[0],
   }
-
-})
