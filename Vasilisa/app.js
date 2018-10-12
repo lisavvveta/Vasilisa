@@ -8,7 +8,7 @@ const furnit = (name, dimensions, prace, information, color, image) => ({
 })
 
 const furniture = [
-  furnit('Бруно', '1100х1452х2064 ', '13 530 - 15 570', 'с ортопедическим основанием 1,2м 1,4м 1,6м 1,8м', 'темный', '../img/bed/bruno.jpg'),
+  furnit('Бруно', '1100х1452х2064 ', '13 530 - 15 570', 'с ортопедическим основанием 1,2м 1,4м 1,6м 1,8м', ' Дуб, атланта, венге', '../img/bed/bruno.jpg'),
   furnit('Венера', '2000-1400 ', '', '', '', '../img/bed/Venera.png'),
   furnit('Фортуна', '2000-1400 ', '', '', '', '../img/bed/fortuna.jpg'),
   furnit('Селена', '2000-1400 ', '', '', '', '../img/bed/selena.jpg'),
