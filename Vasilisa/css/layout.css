@@ -57,8 +57,3 @@ div {
   display: flex;
   flex-direction: row;
 }
-
-section {
-  display: flex;
-  justify-content: space-between;
-}
