@@ -1,0 +1,16 @@
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10px;
+  text-shadow: 1px 1px 40px #4682B4;
+}
+
+.menu a {
+  text-decoration: underline #228B22;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 15px;
+
+}

@@ -1,0 +1,46 @@
+.basket {
+  margin-left: -40px;
+  margin-top: auto;
+  position: absolute;
+  width: 100px;
+}
+
+.hidden {
+  background: #228B22;
+  border: 1px solid #000;
+  position: absolute;
+  left: 45%;
+  width: 250px;
+  margin-top: -15px;
+  text-align: center;
+  padding: 10px 0 10px 10px;
+  box-shadow: 12px 12px 18px #222;
+  transition: 1s;
+  transform: translateY(-200%);
+  color: #fff;
+}
+
+.hidden>button {
+  font-size: 18px;
+}
+
+.basket:hover .hidden {
+  transform: translateY(0);
+}
+
+span.header-cart-coll {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: auto;
+  line-height: 38px;
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+}
+
+.href-box {
+  margin: auto;
+  padding: 0px;
+  width: 80px;
+}
