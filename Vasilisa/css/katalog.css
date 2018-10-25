@@ -1,0 +1,59 @@
+.katalog {
+  margin-top: 5px;
+  margin-left: 10px;
+  float: left;
+  text-align: center;
+  list-style: none;
+  width: 200px;
+  min-height: 100px;
+  z-index: 3;
+}
+
+.katalog a {
+  display: block;
+  background-color: #228B22;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 0.5s all;
+  top: 0;
+  line-height: 40px;
+  min-height: 55px;
+}
+
+.katalog a:hover {
+  background: #1E90FF;
+  height: 20px;
+  top: 0;
+  font-weight: normal;
+  line-height: 40px;
+  min-height: 60px;
+}
+
+.katalog_li {
+  position: relative;
+  margin-top: -5px;
+  min-height: inherit;
+  font-weight: normal;
+  min-height: 70px;
+}
+
+.katalog_li_elem {
+  position: absolute;
+  width: 100%;
+  left: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s opacity;
+  min-height: 80px;
+  z-index: 3;
+}
+
+.katalog_li:hover .katalog_li_elem {
+  opacity: 1;
+  visibility: visible;
+  top: 0;
+  min-height: 80px;
+}

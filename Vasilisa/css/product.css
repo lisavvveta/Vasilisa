@@ -1,0 +1,26 @@
+.image-prod {
+  display: inline-block;
+  vertical-align: top;
+  border: solid 5px #29a329;
+  width: 400px;
+  height: 350px;
+  text-align: center;
+  margin: 0, 5px;
+  padding: 1px;
+  z-index: 3;
+}
+
+.image-prod p {
+  text-align: center;
+  margin: 2px;
+}
+
+.furnitere {
+  width: 375px;
+  height: 255px;
+}
+
+#template_product {
+  padding: 3%;
+  border: solid 3px green;
+}

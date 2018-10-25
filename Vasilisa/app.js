@@ -24,3 +24,4 @@ new Vue({
     furniture: furniture,
     furnit: furniture[0],
   }
+  
