@@ -46,9 +46,8 @@ p {
 h1, h2, h3 {
   text-align: center;
   margin: auto;
-  padding-top: 5px;
+  padding-top: 10px;
 }
-
 
 div {
   margin: 20px;
@@ -57,4 +56,10 @@ div {
 .konteiner {
   display: flex;
   flex-direction: row;
+}
+
+.contact_img{
+  height: 350px;
+  width: 550px;
+  padding: 10px;
 }
