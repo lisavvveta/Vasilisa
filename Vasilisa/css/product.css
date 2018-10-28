@@ -3,7 +3,7 @@
   vertical-align: top;
   border: solid 5px #29a329;
   width: 400px;
-  height: 350px;
+  height: 460px;
   text-align: center;
   margin: 0, 5px;
   padding: 1px;
@@ -14,6 +14,82 @@
   text-align: center;
   margin: 2px;
 }
+
+ min-width: 300px;
+  height: 400px;.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    min-height: 300px;
+  }
+   .product-item {
+    flex: 1 1;
+    min-width: 300px;
+    height: 400px;
+    margin: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    transition: box-shadow 0.2s ease;
+    box-shadow:
+      0 2px 20px 0 rgba(0, 0, 0, 0.5),
+      0 2px 20px 0px rgba(40, 140, 220, 0.5)
+  }
+   .product-item._fill {
+    flex-basis: 48.4%;
+    width: auto;
+  }
+   .product-item:hover {
+    box-shadow:
+      0 2px 20px 0 rgba(0, 0, 0, 1),
+      0 2px 20px 0px rgba(40, 140, 220, 1)
+  }
+   .product-item__picture {
+    width: 100%;
+    max-height: 270px;
+    object-fit: cover;
+    object-position: top;
+  }
+  .product-item__title {
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .product-item__description {
+    margin-bottom: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.8;
+  }
+   .product-item__actions {
+    display: flex;
+    align-items: center;
+  }
+   .product-item__price {
+    color: #373535;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1;
+  }
+   .product-item__favorite-button {}
+   .product-item__buy-button {
+    padding: 13px 16px 11px;
+    margin-left: auto;
+    font-size: 14px;
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #1E90FF;
+    border: 1px solid #1E90FF;
+    border-radius: 8px;
+    touch-action: manipulation;
+    outline: none;
+    transition: all 0.15s ease;
+  } 
 
 .furnitere {
   width: 375px;
