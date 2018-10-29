@@ -1,11 +1,10 @@
-
 const furnit = (name, dimensions, prace, information, color, image) => ({
-  name,
-  dimensions,
-  prace,
-  information,
-  color,
-  image
+    name,
+    dimensions,
+    prace,
+    information,
+    color,
+    image
 })
 
 const furniture = [
@@ -19,9 +18,8 @@ const furniture = [
 ]
 
 new Vue({
-  el: '#template_product',
-  data: {
-    furniture: furniture,
-    furnit: furniture[0],
-  }
-  
+            el: '#template_product',
+            data: {
+                furniture: furniture,
+                furnit: furniture[0],
+            }

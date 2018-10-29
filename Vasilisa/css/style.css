@@ -1,14 +1,9 @@
-
 .block {
-  display: block;
-  justify-content: flex-end;
-  position: relative;
-  position: 50%;
-  float: right;
-  position: inherit;
-  width: 30%;
+    display: block;
+    justify-content: flex-end;
+    position: relative;
+    position: 50%;
+    float: right;
+    position: inherit;
+    width: 30%;
 }
-
-
-
-
