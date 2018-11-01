@@ -21,20 +21,9 @@ body {
     justify-content: space-around;
 }
 
-*,
-*::after,
-*::before {
-    box-sizing: border-box;
-}
-
 a {
     text-decoration: none;
     color: #000;
-}
-
-section {
-    display: flex;
-    justify-content: space-between;
 }
 
 ul,
@@ -42,7 +31,6 @@ li {
     padding: 0;
     margin: 0;
     list-style: none;
-    position: relative;
 }
 
 
@@ -66,7 +54,6 @@ div {
     max-width: 1280px;
     max-height: 1200px;
     display: flex;
-    flex-direction: row;
 }
 
 .contact_img {
