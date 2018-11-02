@@ -1,4 +1,4 @@
-.slide {
+.slide_product {
     width: 30%;
     width: 100px;
     height: 50px;
@@ -8,11 +8,11 @@
     z-index: 1;
 }
 
-.slide input {
+.slide_product input {
     display: none;
 }
 
-.slide input + label {
+.slide_product input + label {
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -27,15 +27,15 @@
     transition: background 0.8s ease-out 0s;
 }
 
-.slide input + label:hover {
+.slide_product input + label:hover {
     background: rgba(250, 250, 250, 0.8);
 }
 
-.slide input:checked + label {
+.slide_product input:checked + label {
     background: rgba(220, 220, 220, 0.8);
 }
 
-.slide div {
+.slide_product div {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -44,26 +44,26 @@
     z-index: 0;
 }
 
-.slide div {
+.slide_product div {
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
 }
 
-.img1 {
-    width: 800px;
-    height: 400px;
+.img1_prod {
+    width: 400px;
+    height: 300px;
     border: 10px solid #008000;
     box-shadow: 12px 12px 18px #222;
 }
 
-.slide input:checked + label + div {
+.slide_product input:checked + label + div {
     visibility: visible;
     opacity: 1;
     transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
 }
 
-.slide div p {
+.slide_product div p {
     position: absolute;
     font-size: 20px;
     top: 0px;
