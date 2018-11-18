@@ -14,8 +14,7 @@ const furniture = [
   furnit('Фортуна', '2000-1400 ', '', '', '', '../img/bed/fortuna.jpg'),
   furnit('Селена', '2000-1400 ', '', '', '', '../img/bed/selena.jpg'),
   furnit('Сицилия', '1600-2000 ', '32 050 - 113 500', '', '', '../img/bed/sicilia.jpg'),
-  furnit('Капри', ' 1600-2000 ', '16 500 ', '', '', '../img/bed/kapry.jpg')
-
+  furnit('Капри', ' 1600-2000 ', '16 500 ', '', '', '../img/bed/kapry.jpg'),
 ]
 
 new Vue({
@@ -24,4 +23,3 @@ new Vue({
     furniture: furniture,
     furnit: furniture[0],
   }
-  
