@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Мебель Василиса</title>
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="../css/index.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="company"><img class="logotyp" src="../img/vasilisa.png" width="700" alt="logotyp">
+            </div>
+            <div class="href-box">
+                <section class="basket">
+                    <p class="basket">
+                        <img
+                            id="corner"
+                            src="../img/bascet.png"
+                            width="80"
+                            onclick="toggle(hidden_content)">
+                        Корзина (<span class="count">0</span>)</p>
+                    <div class="hidden" id="hidden_content">
+                        <p>Товаров:<span class="count">0</span>
+                        </p>
+                        <p>На сумму:
+                            <span price="0" id="price">0</span>
+                        </p>
+                        <a href="order.html">
+                            Заказать звонок</a>
+                    </div>
+                </section>
+            </div>
+        </header>
+        <main class="kontent">
+            <section class="menu">
+                <div class="navigation">
+                    <a class="punct_menu" href="index.html">
+                        Главная
+                    </a>
+                    <a class="punct_menu" href="order.html">
+                        Как заказать</a>
+                    <a class="punct_menu" href="servis.html">Наши услуги</a>
+                    <a class="punct_menu" href="comments.html">Отзывы</a>
+                    <a class="punct_menu" href="feedback.html">Контакты</a>
+                </div>
+                <div>
+                    <form>
+                        <p><input class="search" type="search" name="q" placeholder="Поиск по сайту">
+                            <input class="search" type="submit" value="Найти"></p>
+                    </form>
+                </div>
+            </section>
+            <section class="konteiner">
+                <section class="katalog">
+                    <ul class="punct_katalog">
+                        <li class="katalog_li">
+                            <a href="sofa.html">
+                                Мягкая
+                            </a>
+                            <ul class="katalog_li_elem">
+                                <li class="">
+                                    <a href="sofa.html">Диваны</a>
+                                </li>
+                                <li class="">
+                                    <a href="">Диваны угловые</a>
+                                </li>
+                                <li class="">
+                                    <a href="">Кресла</a>
+                                </li>
+                                <li class="">
+                                    <a href="">Кресло-кравати</a>
+                                </li>
+                                <li class="">
+                                    <a href="kids.html">Детская</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="modul sistem.html">Модульная система</a>
+                        </li>
+                        <li class="">
+                            <a href="bed.html">Кровати</a>
+                        </li>
+                        <li class="katalog_li">
+                            <a href="Comod.html">
+                                Комод
+                            </a>
+                        </li>
+                        <li class="katalog_li">
+                            <a href="">
+                                Корпусная
+                            </a>
+                            <ul class="katalog_li_elem">
+                                <li class="">
+                                    <a href="">Гостинная</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Vasilisa/html/hollway.html">Прихожая</a>
+                                </li>
+                                <li class="">
+                                    <a href="">Детская</a>
+                                </li>
+                                <li class="">
+                                    <a href="">Спальня</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="katalog_li">
+                            <a href="kitchen.html">Кухни</a>
+                        </li>
+                        <li class="katalog_li">
+                            <a class="katalog_li" href="">
+                                Хромированная
+                            </a>
+                            <ul class="katalog_li_elem">
+                                <li class="">
+                                    <a href="../html/table.html">Столы</a>
+                                </li>
+                                <li class="">
+                                    <a href="">Стулья</a>
+                                </li>
+                                <li class="">
+                                    <a href="../html/angle.html">Углы</a>
+                                </li>
+                                <li class="">
+                                    <a href="">Обувницы</a>
+                                </li>
+                                <li class="">
+                                    <a href="">Банкетки</a>
+                                </li>
+                                <li class="">
+                                    <a href="">Вешалки</a>
+                                </li>
+                                <li class="">
+                                    <a href="">Фотопечать материалы</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="katalog_li">
+                            <a href="">
+                                Матрасы</a>
+                        </li>
+                        <li class="katalog_li">
+                            <a href="">
+                                Шкафы</a>
+                            <ul class="katalog_li_elem">
+                                <li class="">
+                                    <a href="shkaf-kupe.html">Шкафы купе</a>
+                                </li>
+                                <li class="">
+                                    <a href="">Шкафы 2-створчатые</a>
+                                </li>
+                                <li class="">
+                                    <a href="">Шкафы 3-створчатые</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="katalog_li">
+                            <a href="">
+                                Акции
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                <ul class=" product">
+                    <ul class="product-list ">
+                        <li class="product-item image-prod ">
+                            <img
+                                src="/Vasilisa/img/chair/solo-ru.jpg"
+                                alt=""
+                                class="product-item__picture"/>
+                            <h6 class="product-item__title">Стул Соло Ру</h6>
+                            <p class="product-item__description"></p>
+                            <div class="product-item__actions">
+                                <span class="product-item__price">
+                                    ₽</span>
+                                <button type="button" class="product-item__buy-button">В корзину</button>
+                          </li>
+                          <li class="product-item image-prod ">
+                              <img
+                                    src="/Vasilisa/img/chair/sonata-t.jpg"
+                                    alt=""
+                                    class="product-item__picture"/>
+                              <h6 class="product-item__title">Соната Т</h6>
+                              <p class="product-item__description"></p>
+                              <div class="product-item__actions">
+                                    <span class="product-item__price">
+                                        ₽</span>
+                                    <button type="button" class="product-item__buy-button">В корзину</button>
+                          </li>
+                          <li class="product-item image-prod ">
+                              <img src="/Vasilisa/img/chair/stil.jpg" alt="" class="product-item__picture"/>
+                                 <h6 class="product-item__title">Стиль</h6>
+                                  <p class="product-item__description"></p>
+                                  <div class="product-item__actions">
+                                     <span class="product-item__price">
+                                         ₽</span>
+                                     <button type="button" class="product-item__buy-button">В корзину</button>
+                            </li>
+                            <li class="product-item image-prod ">
+                                <img
+                                      src="/Vasilisa/img/chair/trilogiya-ru.jpg"
+                                      alt=""
+                                      class="product-item__picture"/>
+                                   <h6 class="product-item__title">Трилогия Ру</h6>
+                                    <p class="product-item__description"></p>
+                                   <div class="product-item__actions">
+                                       <span class="product-item__price">
+                                             ₽</span>
+                                       <button type="button" class="product-item__buy-button">В корзину</button>
+                              </li>
+                              <li class="product-item image-prod ">
+                                  <img src="/Vasilisa/img/chair/unison.jpg" alt="" class="product-item__picture"/>
+                                     <h6 class="product-item__title">Унисон</h6>
+                                      <p class="product-item__description"></p>
+                                      <div class="product-item__actions">
+                                          <span class="product-item__price">
+                                             ₽</span>
+                                             <button type="button" class="product-item__buy-button">В корзину</button>
+                                </li>
+                                <li class="product-item image-prod ">
+                                     <img
+                                         src="/Vasilisa/img/chair/fagot-mru.jpg"
+                                         alt=""
+                                         class="product-item__picture"/>
+                                     <h6 class="product-item__title">Фагот Мру</h6>
+                                     <p class="product-item__description"></p>
+                                     <div class="product-item__actions">
+                                         <span class="product-item__price">
+                                             ₽</span>
+                                        <button type="button" class="product-item__buy-button">В корзину</button>
+                                 </li>
+                                 <li class="product-item image-prod ">
+                                      <img
+                                          src="/Vasilisa/img/chair/fagot-mt.jpg"
+                                          alt=""
+                                          class="product-item__picture"/>
+                                       <h6 class="product-item__title">Фагот МТ</h6>
+                                       <p class="product-item__description"></p>
+                                       <div class="product-item__actions">
+                                             <span class="product-item__price">
+                                                     ₽</span>
+                                         <button type="button" class="product-item__buy-button">В корзину</button>
+                                  </li>
+                                  <li class="product-item image-prod ">
+                                        <img
+                                            src="/Vasilisa/img/chair/furiant-ru.jpg"
+                                            alt=""
+                                            class="product-item__picture"/>
+                                         <h6 class="product-item__title">Фуриант Ру</h6>
+                                         <p class="product-item__description"></p>
+                                         <div class="product-item__actions">
+                                                <span class="product-item__price">
+                                                      ₽</span>
+                                                <button type="button" class="product-item__buy-button">В корзину</button>
+                                   </li>
+                                   <li class="product-item image-prod ">
+                                           <img
+                                                src="/Vasilisa/img/chair/centurion-mru.jpg"
+                                                 alt=""
+                                                 class="product-item__picture"/>
+                                             <h6 class="product-item__title">Центурион МРУ</h6>
+                                             <p class="product-item__description"></p>
+                                             <div class="product-item__actions">
+                                                    <span class="product-item__price">
+                                                             ₽</span>
+                                                    <button type="button" class="product-item__buy-button">В корзину</button>
+                                    </li>
+                                    <li class="product-item image-prod ">
+                                           <img
+                                                     src="/Vasilisa/img/chair/alfa-mru.jpg"
+                                                     alt=""
+                                                     class="product-item__picture"/>
+                                                 <h6 class="product-item__title">Альфа МРУ</h6>
+                                                 <p class="product-item__description"></p>
+                                                 <div class="product-item__actions">
+                                                         <span class="product-item__price">
+                                                                ₽</span>
+                                                         <button type="button" class="product-item__buy-button">В корзину</button>
+                                     </li>
+                                     <li class="product-item image-prod ">
+                                            <img
+                                                   src="/Vasilisa/img/chair/arietta-ru.jpg"
+                                                   alt=""
+                                                   class="product-item__picture"/>
+                                              <h6 class="product-item__title">Ариетта РУ</h6>
+                                              <p class="product-item__description"></p>
+                                              <div class="product-item__actions">
+                                                    <span class="product-item__price">
+                                                            ₽</span>
+                                                    <button type="button" class="product-item__buy-button">В корзину</button>
+                                     </li>
+                                     <li class="product-item image-prod ">
+                                          <img
+                                                       src="/Vasilisa/img/chair/arfa-ru.jpg"
+                                                       alt=""
+                                                       class="product-item__picture"/>
+                                                 <h6 class="product-item__title">Арфа Ру</h6>
+                                                 <p class="product-item__description"></p>
+                                                <div class="product-item__actions">
+                                                          <span class="product-item__price">
+                                                                ₽</span>
+                                                        <button type="button" class="product-item__buy-button">В корзину</button>
+                                    </li>
+                                    <li class="product-item image-prod ">
+                                          <img
+                                                       src="/Vasilisa/img/chair/bar-vr.jpg"
+                                                       alt=""
+                                                       class="product-item__picture"/>
+                                                 <h6 class="product-item__title">Барный врощающийся стул </h6>
+                                                 <p class="product-item__description"></p>
+                                                <div class="product-item__actions">
+                                                          <span class="product-item__price">
+                                                                ₽</span>
+                                                        <button type="button" class="product-item__buy-button">В корзину</button>
+                                    </li>
+                                    <li class="product-item image-prod ">
+                                        <img
+                                                     src="/Vasilisa/img/chair/versal.jpg"
+                                                     alt=""
+                                                     class="product-item__picture"/>
+                                               <h6 class="product-item__title">Версаль </h6>
+                                               <p class="product-item__description"></p>
+                                              <div class="product-item__actions">
+                                                        <span class="product-item__price">
+                                                              ₽</span>
+                                                      <button type="button" class="product-item__buy-button">В корзину</button>
+                                  </li>
+                                  <li class="product-item image-prod ">
+                                      <img
+                                                   src="/Vasilisa/img/chair/volna2.jpg"
+                                                   alt=""
+                                                   class="product-item__picture"/>
+                                             <h6 class="product-item__title">Волна 2 </h6>
+                                             <p class="product-item__description"></p>
+                                            <div class="product-item__actions">
+                                                      <span class="product-item__price">
+                                                            ₽</span>
+                                                    <button type="button" class="product-item__buy-button">В корзину</button>
+                                </li>
+                                <li class="product-item image-prod ">
+                                    <img
+                                                 src="/Vasilisa/img/chair/volna4.jpg"
+                                                 alt=""
+                                                 class="product-item__picture"/>
+                                           <h6 class="product-item__title">Волна 4 </h6>
+                                           <p class="product-item__description"></p>
+                                          <div class="product-item__actions">
+                                                    <span class="product-item__price">
+                                                          ₽</span>
+                                                  <button type="button" class="product-item__buy-button">В корзину</button>
+                                  </li>
+                                  <li class="product-item image-prod ">
+                                      <img
+                                                    src="/Vasilisa/img/chair/volna.jpg"
+                                                    alt=""
+                                                    class="product-item__picture"/>
+                                              <h6 class="product-item__title">Волна </h6>
+                                              <p class="product-item__description"></p>
+                                            <div class="product-item__actions">
+                                                      <span class="product-item__price">
+                                                            ₽</span>
+                                                    <button type="button" class="product-item__buy-button">В корзину</button>
+                                      </li>
+                                      <li class="product-item image-prod ">
+                                          <img
+                                                        src="/Vasilisa/img/chair/gamma-ru.jpg"
+                                                        alt=""
+                                                        class="product-item__picture"/>
+                                                  <h6 class="product-item__title">Гамма Ру </h6>
+                                                  <p class="product-item__description"></p>
+                                                <div class="product-item__actions">
+                                                          <span class="product-item__price">
+                                                                ₽</span>
+                                                        <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/gamma-t.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Гамма Т </h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                           </li>
+                                           <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/grazia-2t.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Грация 2Т </h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/gracia-ru.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Грация Ру </h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/gracia-t.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Грация Т </h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/damask.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Дамаск</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/jacozo-mt.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Джакозо МТ</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/diva-mt.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Дива МТ</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/diez-ru.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Диез РУ</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/diez-t.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Диез Т</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/dollar-t.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Доллар Т</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/dolche-mru.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Дольче МРУ</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/evro-t.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Евро Т</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/kvartet-mt.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Квартет МТ</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/kvartet-ru.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Квартет РУ</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/kvintet-2t.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Квинтет 2Т</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/kvintet-ru.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Квинтет РУ</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/kvintet-t.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Квинтет Т</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/libretto-ru.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Либретто РУ</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/lotos-t.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Лотос Т</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/luch-t.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Луч Т</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/mayamy.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Маями</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/marsel.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Марсель</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/octava-t.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Октава Т</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/onda-ru.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Онда РУ</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/pavlin-t.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Павлин Т</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/silver1.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Сильвер 1</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/silver2.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Сильвер 2</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/sclad-toburet.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Складной табурет</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/soprano-ru.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Сопрано РУ</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/tenor-ru.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Тенор РУ</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/tetris.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Тетрис</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/triol-k.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Триоль К</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/falcet-k.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Фальцет К</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/fuga-k.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Фуга К</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/canon-ru.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Канон РУ</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/kvatrol.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Кватроль</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/cobra-ru.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Кобра РУ</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/krest-k.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Крест К</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/Lira-n-ru.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Лира Н РУ</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/lira-ru.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title">Лира РУ</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                          <li class="product-item image-prod ">
+                                              <img
+                                                            src="/Vasilisa/img/chair/pauk-ru.jpg"
+                                                            alt=""
+                                                            class="product-item__picture"/>
+                                                      <h6 class="product-item__title"> Паук Ру</h6>
+                                                      <p class="product-item__description"></p>
+                                                    <div class="product-item__actions">
+                                                              <span class="product-item__price">
+                                                                    ₽</span>
+                                                            <button type="button" class="product-item__buy-button">В корзину</button>
+                                          </li>
+                                 </ul>>
+                       </section>
+          </section>
+    </main>
+    <footer>
+     <div class="footer">
+         <span>
+             <a href="politika_konfidecialnosti.html">
+                      Политика конфиденциальности</a>
+                   </span>
+                 <h5>
+                      <a href="feedback.html">Связаться с нами</a>
+                  </h5>
+                  <h5>
+                      <a href="comments.html">Написать отзыв</a>
+                  </h5>
+                  <h3>Василиса мебель 2018</h3>
+              </div>
+              <div class="tellBlock">
+                  <button class="tell">
+                      <a href="feedback.html">Tелефон Директора</a>
+                  </button>
+                  <button class="tell">
+                      <a class="email" href="https://e.mail.ru/compose/?to=korol_lev38@mail.ru">korol_lev38@mail.ru</a>
+                  </button>
+              </div>
+              <div class="map">
+                  <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2393.1807666544096!2d103.07131621187881!3d53.14285028173694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0JjRgNC60YPRgtGB0LrQsNGPINC-0LHQuy4g0LMg0KfQtdGA0LXQvNGF0L7QstC-INGD0Lsg0JvQtdC90LjQvdCwINC00L7QvCA1INC_0LXRgNCy0YvQuSDRjdGC0LDQtg!5e0!3m2!1sru!2sru!4v1540561272540"
+                      width="400"
+                      height="300"
+                      frameborder="0"
+                      style="border:0"
+                      allowfullscreen="allowfullscreen"></iframe>
+              </div>
+  </footer>
+</body>
