@@ -26,7 +26,7 @@
                         <p>Товаров:<span class="count">0</span>
                         </p>
                         <p>На сумму:
-                            <span price="0" id="price">0</span>
+                            <span> {{total() | currency}} </span>
                         </p>
                         <a href="order.html">
                             Заказать звонок</a>
@@ -167,8 +167,9 @@
                 </section>
                 <ul class=" product">
                     <ul class="product-list ">
-                        <li class="product-item image-prod ">
-                            <img
+                        <li  v-for="service in services" v-on:click="toggleActive(service)" v-bind:class="{ 'active': service.active}" class="product-item image-prod ">
+                            {{service.name}} <span>{{service.price | currency}}</span> 
+                          <img
                                 src="/Vasilisa/img/sofa-angle/brigantina.jpg"
                                 alt=""
                                 class="product-item__picture"/>
@@ -180,7 +181,7 @@
                                   от 55 500 ₽</span>
                                 <button type="button" class="product-item__buy-button">В корзину</button>
                             </li>
-                            <li class="product-item image-prod slide ">
+                            <li  v-for="service in services" v-on:click="toggleActive(service)" v-bind:class="{ 'active': service.active}" class="product-item image-prod slide ">
                               <input type="radio" name="slider2" id="slider2_1" checked="checked">
                               <label for="slider2_1"></label>
                               <div>
@@ -208,8 +209,9 @@
                                     от 54 650 ₽</span>
                                   <button type="button" class="product-item__buy-button">В корзину</button>
                               </li>
-                              <li class="product-item image-prod ">
-                                  <img
+                              <li v-for="service in services" v-on:click="toggleActive(service)" v-bind:class="{ 'active': service.active}" class="product-item image-prod ">
+                                  {{service.name}} <span>{{service.price | currency}}</span>
+                                <img
                                       src="/Vasilisa/img/sofa-angle/brigantina.jpg"
                                       alt=""
                                       class="product-item__picture"/>
@@ -259,4 +261,6 @@
                             allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </footer>
+                <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+                <script src="../app.js"></script>
             </body>
