@@ -37,27 +37,7 @@ Vue.filter('currency', function (value) {
 
 var demo = new Vue({
   el: '#main',
-  data: {
-      services: [
-        {
-          name: 'Веб разработка',
-          price: 300,
-          active:true
-        },{
-          name: 'Дизайн',
-          price: 400,
-          active:false
-        },{
-          name: 'Интеграция',
-          price: 250,
-          active:false
-        },{
-          name: 'Обучение',
-          price: 220,
-          active:false
-        }
-      ]
-  },
+  data: {};
   methods: {
     toggleActive: function(s){
           s.active = !s.active;
