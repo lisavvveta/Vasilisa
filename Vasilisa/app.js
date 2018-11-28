@@ -23,3 +23,36 @@ new Vue({
     furniture: furniture,
     furnit: furniture[0],
   }
+  
+for(var number = 0; number < h.length; number++){
+  h[number].onclick = (function(index) {
+      return function(count){
+      };
+  })(i);
+}
+
+Vue.filter('currency', function (value) {
+  return '$' + value.toFixed(2);
+});
+
+var demo = new Vue({
+  el: '#main',
+  data: {};
+  methods: {
+    toggleActive: function(s){
+          s.active = !s.active;
+    },
+    total: function(){
+
+        var total = 0;
+
+        this.services.forEach(function(s){
+          if (s.active){
+            total+= s.price;
+          }
+        });
+
+       return total;
+      }
+  }
+});
