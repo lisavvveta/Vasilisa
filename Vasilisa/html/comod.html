@@ -1,197 +1,397 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-<head>
-    <meta charset="utf-8">
-    <title> Мебель Василиса</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="../css/index.css">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Мебель Василиса</title>
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="../css/index.css">
+    </head>
 
-<body>
-    <header class="header">
-        <div class="company"><img class="logotyp" src="../img/vasilisa.png" width="700" alt="logotyp"> </div>
-        <div class="href-box">
-            <section class="basket">
-                <p class="basket"> <img id="corner" src="../img/bascet.png" width="80" onclick="toggle(hidden_content)"> Корзина (<span class="count">0</span>)</p>
-                <div class="hidden" id="hidden_content">
-                    <p>Товаров:<span class="count">0</span> </p>
-                    <p>На сумму: <span price="0" id="price">0</span> </p>
-                    <a href="order.html"> Заказать звонок</a>
+    <body>
+        <header class="header">
+            <div class="company"><img class="logotyp" src="../img/vasilisa.png" width="700" alt="logotyp">
+            </div>
+            <div class="href-box">
+                <section class="basket">
+                    <p class="basket">
+                        <img
+                            id="corner"
+                            src="../img/bascet.png"
+                            width="80"
+                            onclick="toggle(hidden_content)">
+                        Корзина (<span class="count">0</span>)</p>
+                    <div class="hidden" id="hidden_content">
+                        <p>Товаров:<span class="count">0</span>
+                        </p>
+                        <p>На сумму:
+                            <span price="0" id="price">0</span>
+                        </p>
+                        <a href="order.html">
+                            Заказать звонок</a>
+                    </div>
+                </section>
+            </div>
+        </header>
+        <main class="kontent">
+            <section class="menu">
+                <div class="navigation">
+                    <a class="punct_menu" href="index.html">
+                        Главная
+                    </a>
+                    <a class="punct_menu" href="order.html">
+                        Как заказать</a>
+                    <a class="punct_menu" href="servis.html">Наши услуги</a>
+                    <a class="punct_menu" href="comments.html">Отзывы</a>
+                    <a class="punct_menu" href="feedback.html">Контакты</a>
+                </div>
+                <div>
+                    <form>
+                        <p><input class="search" type="search" name="q" placeholder="Поиск по сайту">
+                            <input class="search" type="submit" value="Найти"></p>
+                    </form>
                 </div>
             </section>
-        </div>
-    </header>
-    <main class="kontent">
-        <section class="menu">
-            <div class="navigation">
-                <a class="punct_menu" href="index.html"> Главная </a>
-                <a class="punct_menu" href="order.html"> Как заказать</a>
-                <a class="punct_menu" href="servis.html">Наши услуги</a>
-                <a class="punct_menu" href="comments.html">Отзывы</a>
-                <a class="punct_menu" href="feedback.html">Контакты</a>
-            </div>
-            <div>
-                <form>
-                    <p><input class="search" type="search" name="q" placeholder="Поиск по сайту">
-                        <input class="search" type="submit" value="Найти"></p>
-                </form>
-            </div>
-        </section>
-        <section class="konteiner">
-          <div class="katalog">
-            <ul class="punct_katalog">
-              <li class="katalog_li">
-                <a href="sofa.html"> Мягкая </a>
-                <ul class="katalog_li_elem">
-                  <li class="">
-                    <a href="sofa.html">Диваны</a>
+            <section class="katalog">
+                    <ul class="punct_katalog">
+                        <li class="katalog_li">
+                            <a href="sofa.html">
+                                Мягкая
+                            </a>
+                            <ul class="katalog_li_elem">
+                                <li class="">
+                                    <a href="sofa.html">Диваны</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Vasilisa/html/sofa-angle.html">Диваны угловые</a>
+                                </li>
+                                <li class="">
+                                    <a href="">Кресла</a>
+                                </li>
+                                <li class="">
+                                    <a href="">Кресло-кравати</a>
+                                </li>
+                                <li class="">
+                                    <a href="kids.html">Детская</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="modul sistem.html">Модульная система</a>
+                        </li>
+                        <li class="">
+                            <a href="bed.html">Кровати</a>
+                        </li>
+                        <li class="katalog_li">
+                            <a href="/Vasilisa/html/comod.html">
+                                Комод
+                            </a>
+                        </li>
+                        <li class="katalog_li">
+                            <a href="">
+                                Корпусная
+                            </a>
+                            <ul class="katalog_li_elem">
+                                <li class="">
+                                    <a href="">Гостинная</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Vasilisa/html/hollway.html">Прихожая</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Vasilisa/html/kids.html">Детская</a>
+                                </li>
+                                <li class="">
+                                    <a href="">Спальня</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="katalog_li">
+                            <a href="kitchen.html">Кухни</a>
+                        </li>
+                        <li class="katalog_li">
+                            <a class="katalog_li" href="">
+                                Хромированная
+                            </a>
+                            <ul class="katalog_li_elem">
+                                <li class="">
+                                    <a href="../html/table.html">Столы</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Vasilisa/html/chair.html">Стулья</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Vasilisa/html/foto-print.html">Фотопечать материалы</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="katalog_li">
+                            <a href="">
+                                Матрасы</a>
+                        </li>
+                        <li class="katalog_li">
+                            <a href="">
+                                Шкафы</a>
+                            <ul class="katalog_li_elem">
+                                <li class="">
+                                    <a href="shkaf-kupe.html">Шкафы купе</a>
+                                </li>
+                                <li class="">
+                                    <a href="">Шкафы 2-створчатые</a>
+                                </li>
+                                <li class="">
+                                    <a href="">Шкафы 3-створчатые</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="katalog_li">
+                            <a href="">
+                                Акции
+                            </a>
+                        </li>
+                    </ul>
+            </section>
+                <section class=" product">
+                    <ul class="product-list ">
+                        <li class="product-item image-prod ">
+                            <h3>
+                                Комод высокий корпус-венге, фасад глянец, цвет по согласованию
+                            </h3>
+                            <img src="/Vasilisa/img/comod/comod-height.jpeg" class="product-item__picture">
+                            <p>
+                                1336x500x370
+                            </p>
+                            <p>
+                                Корпус-венге, фасад глянец. Цвет уточнить у консультанта
+                            </p>
+                            <p>
+                                от 6 500 ₽</p>
+                            <button>
+                                в корзину
+                            </button>
+                        </li>
+                       <li class="product-item image-prod ">
+                            <h3>
+                                Комод БР-10 без стекла</h3>
+                            <img src="/Vasilisa/img/comod/br-10.png" class="product-item__picture">
+                            <p>1182x1116x355. Без стекла.В рамке. Этот комод относится к модульной системе
+                                Браво.</p>
+                            <p>
+                                от 9 300 ₽</p>
+                            <button>
+                                в корзину
+                            </button>
+                        </li>
+                       <li class="product-item image-prod ">
+                            <h3>
+                                Комод СП-123</h3>
+                            <img src="/Vasilisa/img/bed/SP-121-124.jpg"  class="product-item__picture">
+                            <p>
+                                1000х810х435</p>
+                            <p>
+                                Цвет венге-дуб белый, шима светлый, шима светлый</p>
+                            <p>
+                                от 6 600 ₽</p>
+                            <button>
+                                в корзину
+                            </button>
+                        </li>
+                       <li class="product-item image-prod ">
+                            <h3>
+                                Тумба прикроватная СП-124</h3>
+                            <img src="/Vasilisa/img/bed/SP-121-124.jpg"  class="product-item__picture">
+                            <p>
+                                500х435х445</p>
+                            <p>Цвет венге-дуб беленый, шима светлый, шима светлый
+                            </p>
+                            <p>
+                                от 2 600 ₽</p>
+                            <button>
+                                в корзину
+                            </button>
+                        </li>
+                       <li class="product-item image-prod ">
+                            <h3>
+                                Пенал БР-1</h3>
+                            <img src="/public/img/comod/penal-br-1.png"  class="product-item__picture">
+                            <p>2215x500x351</p>
+                            <p>Этот пенал относится к модульной системе Браво</p>
+                            <p>
+                                от ₽</p>
+                            <button>
+                                в корзину
+                            </button>
+                        </li>
+                       <li class="product-item image-prod ">
+                            <h3>
+                                Пенал БР-3</h3>
+                            <img src="/public/img/comod/penal-br-3.png"  class="product-item__picture">
+                            <p>2215x500x351</p>
+                            <p>Этот пенал относится к модульной системе Браво</p>
+                            <p>
+                                от ₽</p>
+                            <button>
+                                в корзину
+                            </button>
+                        </li>
+                       <li class="product-item image-prod ">
+                            <h3>
+                                Стеллаж БР-7</h3>
+                            <img src="/public/img/comod/br-7.png"  class="product-item__picture">
+                            <p>2215x351x351</p>
+                            <p>Этот пенал относится к модульной системе Браво</p>
+                            <p>
+                                от ₽</p>
+                            <button>
+                                в корзину
+                            </button>
+                        </li>
+                       <li class="product-item image-prod ">
+                            <h3>
+                                Пенал БР-8</h3>
+                            <img src="/public/img/comod/penal-br-8.png"  class="product-item__picture">
+                            <p>2215x500x351</p>
+                            <p>Этот пенал относится к модульной системе Браво</p>
+                            <p>
+                                от ₽</p>
+                            <button>
+                                в корзину
+                            </button>
+                        </li>
+                       <li class="product-item image-prod ">
+                            <h3>
+                                Пенал БР-9</h3>
+                            <img src="/public/img/comod/penal-br-9.png"  class="product-item__picture">
+                            <p>2215x560x400</p>
+                            <p>Этот пенал относится к модульной системе Браво</p>
+                            <p>
+                                от ₽</p>
+                            <button>
+                                в корзину
+                            </button>
+                        </li>
+                       <li class="product-item image-prod ">
+                            <h3>Пенал МС-2</h3>
+                            <img src="/public/img/comod/ms-2.png"  class="product-item__picture">
+                            <p>2220х450х450</p>
+                            <p>Этот пенал относится к модульной системе Лион</p>
+                            <p>
+                                от ₽</p>
+                            <button>
+                                в корзину
+                            </button>
+                        </li>
+                       <li class="product-item image-prod ">
+                            <h3>Пенал МС-3</h3>
+                            <img src="/public/img/comod/ms-3.png"  class="product-item__picture">
+                            <p>2220х600х450</p>
+                            <p>Этот пенал относится к модульной системе Лион</p>
+                            <p>
+                                от ₽</p>
+                            <button>
+                                в корзину
+                            </button>
+                        </li>
+                       <li class="product-item image-prod ">
+                            <h3>Пенал МС-3</h3>
+                            <img src="/public/img/comod/ms-3.png"  class="product-item__picture">
+                            <p>2220х600х450</p>
+                            <p>Этот пенал относится к модульной системе Лион</p>
+                            <p>
+                                от ₽</p>
+                            <button>
+                                в корзину
+                            </button>
+                        </li>
+                       <li class="product-item image-prod ">
+                          <h3>Пенал МС-5</h3>
+                          <img src="/public/img/comod/ms-5.png"  class="product-item__picture">
+                          <p>1675х650х450</p>
+                          <p>Этот пенал относится к модульной системе Лион</p>
+                          <p>
+                              от ₽</p>
+                          <button>
+                              в корзину
+                          </button>
+                      </li>
+                     <li class="product-item image-prod ">
+                        <h3>Пенал МС-6</h3>
+                        <img src="/public/img/comod/ms-6.png"  class="product-item__picture">
+                        <p>1050х1255х4364</p>
+                        <p>Этот комод  относится к модульной системе Лион</p>
+                        <p>
+                            от ₽</p>
+                        <button>
+                            в корзину
+                        </button>
+                    </li>
+                   <li class="product-item image-prod ">
+                      <h3>Пенал МС-7</h3>
+                      <img src="/public/img/comod/ms-7.png"  class="product-item__picture">
+                      <p>1255х1200х364</p>
+                      <p>Этот комод  относится к модульной системе Лион</p>
+                      <p>
+                          от ₽</p>
+                      <button>
+                          в корзину
+                      </button>
                   </li>
-                  <li class="">
-                    <a href="">Диваны угловые</a>
-                  </li>
-                  <li class="">
-                    <a href="">Кресла</a>
-                  </li>
-                  <li class="">
-                    <a href="">Кресло-кравати</a>
-                  </li>
-                  <li class="">
-                    <a href="kids.html">Детская</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="">
-                <a href="modul sistem.html">Модульная система</a>
-              </li>
-              <li class="">
-                <a href="bed.html">Кровати</a>
-              </li>
-              <li class="katalog_li">
-                <a href="Comod.html"> Комод </a>
-              </li>
-              <li class="katalog_li">
-                <a href=""> Корпусная </a>
-                <ul class="katalog_li_elem">
-                  <li class="">
-                    <a href="">Гостинная</a>
-                  </li>
-                  <li class="">
-                    <a href="/Vasilisa/html/hollway.html">Прихожая</a>
-                  </li>
-                  <li class="">
-                    <a href="">Детская</a>
-                  </li>
-                  <li class="">
-                    <a href="">Спальня</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="katalog_li">
-                <a href="kitchen.html">Кухни</a>
-              </li>
-              <li class="katalog_li">
-                <a class="katalog_li"
-                   href=""> Хромированная </a>
-                <ul class="katalog_li_elem">
-                  <li class="">
-                    <a href="../html/table.html">Столы</a>
-                  </li>
-                  <li class="">
-                    <a href="">Стулья</a>
-                  </li>
-                  <li class="">
-                    <a href="../html/angle.html">Углы</a>
-                  </li>
-                  <li class="">
-                    <a href="">Обувницы</a>
-                  </li>
-                  <li class="">
-                    <a href="">Банкетки</a>
-                  </li>
-                  <li class="">
-                    <a href="">Вешалки</a>
-                  </li>
-                  <li class="">
-                    <a href="">Фотопечать материалы</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="katalog_li">
-                <a href=""> Матрасы</a>
-              </li>
-              <li class="katalog_li">
-                <a href=""> Шкафы</a>
-                <ul class="katalog_li_elem">
-                  <li class="">
-                    <a href="shkaf-kupe.html">Шкафы купе</a>
-                  </li>
-                  <li class="">
-                    <a href="">Шкафы 2-створчатые</a>
-                  </li>
-                  <li class="">
-                    <a href="">Шкафы 3-створчатые</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="katalog_li">
-                <a href=""> Акции </a>
+                 <li class="product-item image-prod ">
+                    <h3>Пенал МС-9</h3>
+                    <img src="/public/img/comod/ms-9.png"  class="product-item__picture">
+                    <p>1200х550х420</p>
+                    <p>МС-9 относится к модульной системе Лион</p>
+                    <p>
+                        от ₽</p>
+                    <button>
+                        в корзину
+                    </button>
+                </li>
+               <li class="product-item image-prod ">
+                  <h3>Пенал МС-10</h3>
+                  <img src="/public/img/comod/ms-10.png"  class="product-item__picture">
+                  <p>1200х550х420</p>
+                  <p>МС-10 относится к модульной системе Лионн.</p>
+                  <p>
+                      от ₽</p>
+                  <button>
+                      в корзину
+                  </button>
               </li>
             </ul>
-          </div>
-            <section class=" product">
-                <div class="">
-                    <div class="image-prod">
-                        <h3> Комод высокий корпус-венге, фасад глянец, цвет
-                            по согласованию </h3>
-                        <img src="/Vasilisa/img/comod/comod-height.jpeg" width="325" height="205">
-                        <p> Размеры 1336-500-370 </p>
-                        <p> Цвета </p>
-                        <p> Цена 6 200р</p>
-                        <button> в корзину </button>
-                    </div>
-                    <div class="image-prod">
-                        <h3> Комод БР-10 без стекла</h3>
-                        <img src="/Vasilisa/img/comod/br-10.png" width="375" height="255">
-                        <p> Размеры 1182*1116*355 </p>
-                        <p> цена 10 550р</p>
-                        <button> в корзину </button>
-                    </div>
-                    <div class="image-prod">
-                      <h3> Комод СП-123</h3>
-                      <img src="/Vasilisa/img/bed/SP-121-124.jpg" width="375" height="255">
-                      <p> Размеры:</p>
-                      <p> Цвета: венге-дуб беленый  </p>
-                      <p>  Цена:</p>
-                      <button> в корзину </button>
-                  </div>
-                  <div class="image-prod">
-                      <h3> Тумба прикроватная СП-124</h3>
-                      <img src="/Vasilisa/img/bed/SP-121-124.jpg" width="375" height="255">
-                      <p> Размеры:</p>
-                      <p> Цвета: венге-дуб беленый  </p>
-                      <p>  Цена:</p>
-                      <button> в корзину </button>
-                  </div>
-                 </div>
             </section>
-          </section>
-      </main>
-           <footer>
-         <div class="footer">
-              <span> <a href="politika_konfidecialnosti.html"> Политика конфиденциальности</a></span>
-             <h5><a href="feedback.html">Связаться с нами</a></h5>
-             <h5><a href="comments.html">Написать отзыв</a></h5>
-              <h3>Василиса мебель 2018</h3>
-          </div>
-           <div class="tellBlock">
-              <button class="tell">  <a href="feedback.html">Tелефон Директора</a> 
-                  </button>
-              <button class="tell"><a class="email" href="https://e.mail.ru/compose/?to=korol_lev38@mail.ru">korol_lev38@mail.ru</a> </button>
-          </div>
-          <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2393.1807666544096!2d103.07131621187881!3d53.14285028173694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0JjRgNC60YPRgtGB0LrQsNGPINC-0LHQuy4g0LMg0KfQtdGA0LXQvNGF0L7QstC-INGD0Lsg0JvQtdC90LjQvdCwINC00L7QvCA1INC_0LXRgNCy0YvQuSDRjdGC0LDQtg!5e0!3m2!1sru!2sru!4v1540561272540" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> 
-          </div>
-      </footer>
-  </body>
-
+        </main>
+        <footer>
+            <div class="footer">
+                <span>
+                    <a href="politika_konfidecialnosti.html">
+                        Политика конфиденциальности</a>
+                </span>
+                <h5>
+                    <a href="feedback.html">Связаться с нами</a>
+                </h5>
+                <h5>
+                    <a href="comments.html">Написать отзыв</a>
+                </h5>
+                <h3>Василиса мебель 2018</h3>
+            </div>
+            <div class="tellBlock">
+                <button class="tell">
+                    <a href="feedback.html">Tелефон Директора</a>
+                </button>
+                <button class="tell">
+                    <a class="email" href="https://e.mail.ru/compose/?to=korol_lev38@mail.ru">korol_lev38@mail.ru</a>
+                </button>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2393.1807666544096!2d103.07131621187881!3d53.14285028173694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0JjRgNC60YPRgtGB0LrQsNGPINC-0LHQuy4g0LMg0KfQtdGA0LXQvNGF0L7QstC-INGD0Lsg0JvQtdC90LjQvdCwINC00L7QvCA1INC_0LXRgNCy0YvQuSDRjdGC0LDQtg!5e0!3m2!1sru!2sru!4v1540561272540"
+                    width="400"
+                    height="300"
+                    frameborder="0"
+                    style="border:0"
+                    allowfullscreen="allowfullscreen"></iframe>
+            </div>
+        </footer>
+    </body>
