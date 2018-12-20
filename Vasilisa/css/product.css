@@ -47,7 +47,6 @@
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 1), 0 2px 20px 0 rgba(40, 140, 220, 1);
 }
 .product-item__picture {
-    width: 100%;
     max-height: 270px;
     object-fit: cover;
     object-position: top;

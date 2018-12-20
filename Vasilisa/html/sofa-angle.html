@@ -65,7 +65,7 @@
                                     <a href="sofa.html">Диваны</a>
                                 </li>
                                 <li class="">
-                                    <a href="">Диваны угловые</a>
+                                    <a href="/Vasilisa/html/sofa-angle.html">Диваны угловые</a>
                                 </li>
                                 <li class="">
                                     <a href="">Кресла</a>
@@ -85,7 +85,7 @@
                             <a href="bed.html">Кровати</a>
                         </li>
                         <li class="katalog_li">
-                            <a href="Comod.html">
+                            <a href="/Vasilisa/html/comod.html">
                                 Комод
                             </a>
                         </li>
@@ -101,7 +101,7 @@
                                     <a href="/Vasilisa/html/hollway.html">Прихожая</a>
                                 </li>
                                 <li class="">
-                                    <a href="">Детская</a>
+                                    <a href="/Vasilisa/html/kids.html">Детская</a>
                                 </li>
                                 <li class="">
                                     <a href="">Спальня</a>
@@ -120,22 +120,10 @@
                                     <a href="../html/table.html">Столы</a>
                                 </li>
                                 <li class="">
-                                    <a href="">Стулья</a>
+                                    <a href="/Vasilisa/html/chair.html">Стулья</a>
                                 </li>
                                 <li class="">
-                                    <a href="">Углы</a>
-                                </li>
-                                <li class="">
-                                    <a href="">Обувницы</a>
-                                </li>
-                                <li class="">
-                                    <a href="">Банкетки</a>
-                                </li>
-                                <li class="">
-                                    <a href="">Вешалки</a>
-                                </li>
-                                <li class="">
-                                    <a href="">Фотопечать материалы</a>
+                                    <a href="/Vasilisa/html/foto-print.html">Фотопечать материалы</a>
                                 </li>
                             </ul>
                         </li>
@@ -167,40 +155,21 @@
                 </section>
                 <ul class=" product">
                     <ul class="product-list ">
-                        <li>
-                          <img
-                                src="/Vasilisa/img/sofa-angle/brigantina.jpg"
-                                alt=""
-                                class="product-item__picture"/>
+                      <li class="product-item image-prod ">
+                          <img class="product-item__picture" width="100%" src="/Vasilisa/img/sofa-angle/brigantina.jpg"/>
                             <h6 class="product-item__title">Диван угловой Бригантина</h6>
-                            <p class="product-item__description"> 3180*176*910мм
-                                Cпальное место 2700x1300 </p>
+                            <p class="product-item__description"> 3180*176*910мм. Cпальное место 2700x1300 </p>
                             <div class="product-item__actions">
-                                <span class="product-item__price">
-                                  от 55 500 ₽</span>
+                                <span class="product-item__price">от 55 500 ₽</span>
                                 <button type="button" class="product-item__buy-button">В корзину</button>
                             </li>
-                            <li  v-for="service in services" v-on:click="toggleActive(service)" v-bind:class="{ 'active': service.active}" class="product-item image-prod slide ">
-                              <input type="radio" name="slider2" id="slider2_1" checked="checked">
-                              <label for="slider2_1"></label>
-                              <div>
-                                  <img class="img1" src="../img/sofa-angle/elvira4-1.jpg"></div>
-                              <label for="slider2_2"></label>
-                              <input type="radio" name="slider2" id="slider2_2">
-                              <label for="slider2_2"></label>
-                              <div><img class="img1" src="../img/sofa-angle/elvira4-3.jpg"></div>
-                              <label for="slider2_3"></label>
-                              <input type="radio" name="slider2" id="slider2_2">
-                              <label for="slider2_2"></label>
-                              <div><img class="img1" src="../img/sofa-angle/elvira4-4.jpg"></div>
-                              <label for="slider2_3"></label>
-                              <h6 
-                                  class="product-item__title">Диван Эльвира</h6>
+                            <li class="product-item image-prod ">
+                             <img class="product-item__picture" width="100%" src="../img/sofa-angle/elvira4-1.jpg">
+                              <h6 class="product-item__title">Диван Эльвира</h6>
                               <p class="product-item__description">232* 160*93см
                                спальное место 140* 195см.
                                механизм пантограф.
                                преимущество этого дивана огромный ящик под постельное белье.
-                               и механизм пантограф.
                                угол не меняется 
                               </p>
                               <div class="product-item__actions">
@@ -208,12 +177,8 @@
                                     от 54 650 ₽</span>
                                   <button type="button" class="product-item__buy-button">В корзину</button>
                               </li>
-                              <li v-for="service in services" v-on:click="toggleActive(service)" v-bind:class="{ 'active': service.active}" class="product-item image-prod ">
-                                  {{service.name}} <span>{{service.price | currency}}</span>
-                                <img
-                                      src="/Vasilisa/img/sofa-angle/brigantina.jpg"
-                                      alt=""
-                                      class="product-item__picture"/>
+                              <li class="product-item image-prod ">
+                                <img src="/Vasilisa/img/sofa-angle/brigantina.jpg" class="product-item__picture"/>
                                   <h6 class="product-item__title">Диван угловой Мелиса</h6>
                                   <p class="product-item__description">232*110*93см
                                       спальное место 150*2000см
@@ -223,8 +188,7 @@
                                           от 39 100 ₽</span>
                                       <button type="button" class="product-item__buy-button">В корзину</button>
                                   </li>
-                               
-                            </ul>>
+                            </ul>
                         </section>
                     </section>
                 </main>

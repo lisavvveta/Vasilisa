@@ -15,20 +15,24 @@
             <div class="company"><img class="logotyp" src="../img/vasilisa.png" width="700" alt="logotyp">
             </div>
             <div class="href-box">
-                <section class="basket">
-                    <p class="basket">
-                        <img
-                            id="corner"
-                            src="../img/bascet.png"
-                            width="80"
-                            onclick="toggle(hidden_content)">
-                        Корзина (<span class="count">0</span>)</p>
-                    <div class="hidden" id="hidden_content">
-                        <p>Товаров:<span class="count">0</span>
-                        </p>
-                        <a href="order.html">Заказать звонок</a>
-                    </div>
-                </section>
+              <section class="basket">
+                <p class="basket">
+                    <img
+                        id="corner"
+                        src="../img/bascet.png"
+                        width="80"
+                        onclick="toggle(hidden_content)">
+                    Корзина (<span class="count">0</span>)</p>
+                <div class="hidden" id="hidden_content">
+                    <p>Товаров:<span class="count">0</span>
+                    </p>
+                    <p>На сумму:
+                        <span price="0" id="price">0</span>
+                    </p>
+                    <a href="order.html">
+                        Заказать звонок</a>
+                </div>
+            </section>
             </div>
         </header>
         <main class="kontent">
@@ -81,7 +85,7 @@
                         <a href="bed.html">Кровати</a>
                     </li>
                     <li class="katalog_li">
-                        <a href="Comod.html">
+                        <a href="/Vasilisa/html/comod.html">
                             Комод
                         </a>
                     </li>
@@ -97,7 +101,7 @@
                                 <a href="/Vasilisa/html/hollway.html">Прихожая</a>
                             </li>
                             <li class="">
-                                <a href="">Детская</a>
+                                <a href="/Vasilisa/html/kids.html">Детская</a>
                             </li>
                             <li class="">
                                 <a href="">Спальня</a>
@@ -116,22 +120,10 @@
                                 <a href="../html/table.html">Столы</a>
                             </li>
                             <li class="">
-                                <a href="">Стулья</a>
+                                <a href="/Vasilisa/html/chair.html">Стулья</a>
                             </li>
                             <li class="">
-                                <a href="">Углы</a>
-                            </li>
-                            <li class="">
-                                <a href="">Обувницы</a>
-                            </li>
-                            <li class="">
-                                <a href="">Банкетки</a>
-                            </li>
-                            <li class="">
-                                <a href="">Вешалки</a>
-                            </li>
-                            <li class="">
-                                <a href="">Фотопечать материалы</a>
+                                <a href="/Vasilisa/html/foto-print.html">Фотопечать материалы</a>
                             </li>
                         </ul>
                     </li>
@@ -163,262 +155,101 @@
             </section>
             <section class=" product">
                 <ul class="product-list ">
-                    
-                        <li class="product-item image-prod slide ">
-                            <input type="radio" name="slider2" id="slider2_1" checked="checked">
-                            <label for="slider2_1"></label>
-                            <div>
-                                <img class="img1" src="../img/sofa/veronica-1.jpg"></div>
-                            <label for="slider2_2"></label>
-                            <input type="radio" name="slider2" id="slider2_2">
-                            <label for="slider2_2"></label>
-                            <div><img class="img1" src="../img/sofa/veronica-2.jpg"></div>
-                            <label for="slider2_3"></label>
-                            <input type="radio" name="slider2" id="slider2_2">
-                            <label for="slider2_2"></label>
-                            <div><img class="img1" src="../img/sofa/veronica-3.jpg"></div>
-                            <label for="slider2_3"></label>
-                            <input type="radio" name="slider2" id="slider2_2">
-                            <label for="slider2_2"></label>
-                            <div><img class="img1" src="../img/sofa/veronica-4.jpg"></div>
-                            <label for="slider2_3"></label>
-                            <input type="radio" name="slider2" id="slider2_2">
-                            <label for="slider2_2"></label>
-                            <div><img class="img1" src="../img/sofa/veronica-5.jpg"></div>
-                            <label for="slider2_3"></label>
-                            <input type="radio" name="slider2" id="slider2_2">
-                            <label for="slider2_2"></label>
-                            <div><img class="img1" src="../img/sofa/veronica-6.jpg"></div>
-                            <label for="slider2_3"></label>
-                            <h6 
-                                class="product-item__title">Диван Вероника</h6>
+                        <li class="product-item image-prod">
+                            <img class="product-item__picture" width="100%" src="../img/sofa/veronica-1.jpg">
+                            <h3 class="product-item__title">Диван Вероника</h3>
                             <p class="product-item__description">
-                                222*105*101см
-                                спальное место 150*200см
-                                механизм раскадывания тик-так.
-                                подлокотники из мдф, в комплекте 3 подушки.
-                            </p>
-                            <div class="product-item__actions">
-                                <span class="product-item__price">
-                                    от 34 300 ₽</span>
-                                <button type="button" class="product-item__buy-button">В корзину</button>
+                                222*105*101см.Cпальное место 150*200см.
+                                Механизм раскадывания тик-так.
+                                Подлокотники из мдф, в комплекте 3 подушки.</p>
+                                <div class="product-item__actions">
+                                  <span class="product-item__price"> от 34 300 ₽</span>
+                                  <button type="button" class="product-item__buy-button">В корзину</button>
+                                </div>
                             </li>
-                            <li class="product-item image-prod slide ">
-                              <input type="radio" name="slider2" id="slider2_1" checked="checked">
-                              <label for="slider2_1"></label>
-                              <div>
-                                  <img class="img1" src="../img/sofa/calipsio-met-1.jpg"></div>
-                              <label for="slider2_2"></label>
-                              <input type="radio" name="slider2" id="slider2_2">
-                              <label for="slider2_2"></label>
-                              <div><img class="img1" src="../img/sofa/calipsio-met-2.jpg"></div>
-                              <label for="slider2_3"></label>
-                              <h6 
-                                  class="product-item__title">Диван Колипсио на металлокарксе</h6>
-                              <p class="product-item__description">174*112*94см
-                                140 *210см - спальное место
-                                Диван разработан на металлокарксе с ортопедическим основанием, механизм раскладывания аккардион.
-                                наполения может быть как зависимый пружинный блок, так и независимый пружинный блок. Внутри есть ящик.
+                            <li class="product-item image-prod">
+                              <img class="product-item__picture" width="100%" src="../img/sofa/calipsio-met-1.jpg">
+                              <h3 class="product-item__title">Диван Колипсио на металлокарксе</h3>
+                              <p class="product-item__description">140 *210см - спальное место.
+                                Диван разработан на металлокарксе с ортопедическим основанием, механизм аккардион.
+                                Наполения может быть как зависимый пружинный блок, так и независимый пружинный блок. Внутри есть ящик.
                               </p>
                               <div class="product-item__actions">
-                                  <span class="product-item__price">
-                                      от 46 000 ₽</span>
-                                  <button type="button" class="product-item__buy-button">В корзину</button>
+                                  <span class="product-item__price">от 46 000 ₽</span>
+                                  <button type="button" class="product-item__buy-button">В корзину</button></div>
                               </li>
-                              <li class="product-item image-prod slide ">
-                                  <input type="radio" name="slider2" id="slider2_1" checked="checked">
-                                  <label for="slider2_1"></label>
-                                  <div>
-                                      <img class="img1" src="../img/sofa/brigantina-1.jpg"></div>
-                                  <label for="slider2_2"></label>
-                                  <input type="radio" name="slider2" id="slider2_2">
-                                  <label for="slider2_2"></label>
-                                  <div><img class="img1" src="../img/sofa/brigantina-2.jpg"></div>
-                                  <label for="slider2_3"></label>
-                                  <input type="radio" name="slider2" id="slider2_2">
-                                  <label for="slider2_2"></label>
-                                  <div><img class="img1" src="../img/sofa/brigantina-3.jpg"></div>
-                                  <label for="slider2_3"></label>
-                                  <h6 
-                                      class="product-item__title">Диван Бригантина</h6>
-                                  <p class="product-item__description">механизм еврокнижка
-                                      197*85*92см
-                                      спальное место 145*197см
+                              <li class="product-item image-prod  ">
+                                  <img class="product-item__picture" class="img1" src="../img/sofa/brigantina-1.jpg">
+                                     <h3 class="product-item__title">Диван Бригантина</h3>
+                                  <p class="product-item__description">Mеханизм еврокнижка. 197*85*92см. Cпальное место 145*197см
                                   </p>
                                   <div class="product-item__actions">
-                                      <span class="product-item__price">
-                                          от 18 000 ₽</span>
+                                      <span class="product-item__price">от 18 000 ₽</span>
                                       <button type="button" class="product-item__buy-button">В корзину</button>
                                   </li>
-                                  <li class="product-item image-prod slide ">
-                                      <input type="radio" name="slider2" id="slider2_1" checked="checked">
-                                      <label for="slider2_1"></label>
-                                      <div>
-                                          <img class="img1" src="../img/sofa/tahta-1.jpg"></div>
-                                      <label for="slider2_2"></label>
-                                      <input type="radio" name="slider2" id="slider2_2">
-                                      <label for="slider2_2"></label>
-                                      <div><img class="img1" src="../img/sofa/tahta-2.jpg"></div>
-                                      <label for="slider2_3"></label>
-                                      <input type="radio" name="slider2" id="slider2_2">
-                                      <label for="slider2_2"></label>
-                                      <div><img class="img1" src="../img/sofa/tahta-3.jpg"></div>
-                                      <label for="slider2_3"></label>
-                                      <input type="radio" name="slider2" id="slider2_2">
-                                      <label for="slider2_2"></label>
-                                      <div><img class="img1" src="../img/sofa/tahta-4.jpg"></div>
-                                      <label for="slider2_3"></label>
-                                      <h6 
-                                          class="product-item__title">Тахта</h6>
+                                  <li class="product-item image-prod">
+                                      <img class="product-item__picture" src="../img/sofa/tahta-1.jpg">
+                                      <h3 class="product-item__title">Тахта</h3>
                                       <p class="product-item__description">201*95*100см
                                           спальное место 195*90см
                                            подъемный механизм, внизу огромный ящик 
                                       </p>
                                       <div class="product-item__actions">
-                                          <span class="product-item__price">
-                                              от 19 000 ₽</span>
+                                          <span class="product-item__price">от 19 000 ₽</span>
                                           <button type="button" class="product-item__buy-button">В корзину</button>
                                       </li>
-                                      <li class="product-item image-prod slide ">
-                                      <input type="radio" name="slider2" id="slider2_1" checked="checked">
-                                      <label for="slider2_1"></label>
-                                      <div>
-                                          <img class="img1" src="../img/sofa/mango-1.jpg"></div>
-                                      <label for="slider2_2"></label>
-                                      <input type="radio" name="slider2" id="slider2_2">
-                                      <label for="slider2_2"></label>
-                                      <div><img class="img1" src="../img/sofa/mango-2.jpg"></div>
-                                      <label for="slider2_3"></label>
-                                      <input type="radio" name="slider2" id="slider2_2">
-                                      <label for="slider2_2"></label>
-                                      <h6 
-                                          class="product-item__title">Манго на металлокаркасе</h6>
+                                      <li class="product-item image-prod">
+                                          <img class="product-item__picture" src="../img/sofa/mango-1.jpg">
+                                      <h3 class="product-item__title">Манго на металлокаркасе</h3>
                                       <p class="product-item__description">202*108*97
                                           спальное место 140*202см
-                                          сверху дивана идет съемный чехол, который очень удобно снять и постирать.
-                                          разработан на металлокаркасе с ортопедическим основанием.
-                                          имеет три положения.
-                                          наполнения дивана независимый пружинный блок
+                                          сверху дивана идет съемный чехол.
+                                          Диван на металлокаркасе с ортопедическим основанием и имеет три положения. Внутри дивана независимый пружинный блок
                                           
                                       </p>
                                       <div class="product-item__actions">
-                                          <span class="product-item__price">
-                                              от 31 000 ₽</span>
+                                          <span class="product-item__price">от 31 000 ₽</span>
                                           <button type="button" class="product-item__buy-button">В корзину</button>
                                       </li>
                                       <li class="product-item image-prod ">
-                                          <img
-                                              src="/Vasilisa/img/sofa/melisa.jpg"
-                                              alt=""
-                                              class="product-item__picture"/>
-                                          <h6 class="product-item__title">Диван Мелиса</h6>
+                                          <img src="/Vasilisa/img/sofa/melisa.jpg" class="product-item__picture"/>
+                                          <h3 class="product-item__title">Диван Мелиса</h3>
                                           <p class="product-item__description"> 232*110*93см
                                               спальное место 150*200см </p>
                                           <div class="product-item__actions">
-                                              <span class="product-item__price">
-                                                от 32 200 ₽</span>
+                                              <span class="product-item__price">от 32 200 ₽</span>
                                               <button type="button" class="product-item__buy-button">В корзину</button>
                                           </li>
-                                          <li class="product-item image-prod slide ">
-                                            <input type="radio" name="slider2" id="slider2_1" checked="checked">
-                                            <label for="slider2_1"></label>
-                                            <div>
-                                                <img class="img1" src="../img/sofa/kvadrat-1.jpg"></div>
-                                            <label for="slider2_2"></label>
-                                            <input type="radio" name="slider2" id="slider2_2">
-                                            <label for="slider2_2"></label>
-                                            <div><img class="img1" src="../img/sofa/kvadrat-2.jpg"></div>
-                                            <label for="slider2_3"></label>
-                                            <input type="radio" name="slider2" id="slider2_2">
-                                            <label for="slider2_2"></label>
-                                            <div><img class="img1" src="../img/sofa/kvadrat-3.jpg"></div>
-                                            <label for="slider2_3"></label>
-                                            <input type="radio" name="slider2" id="slider2_2">
-                                            <label for="slider2_2"></label>
-                                            <div><img class="img1" src="../img/sofa/kvadrat-4.jpg"></div>
-                                            <label for="slider2_3"></label>
-                                            <input type="radio" name="slider2" id="slider2_2">
-                                            <label for="slider2_2"></label>
-                                            <h6 
-                                                class="product-item__title">Уют </h6>
-                                            <p class="product-item__description">
-                                               Размеры 230*80*90см
-                                              Спальное место 130*190см
-                                            </p>
+                                          <li class="product-item image-prod">
+                                                <img class="product-item__picture"src="../img/sofa/kvadrat-1.jpg">
+                                            <h3 class="product-item__title">Уют </h3>
+                                            <p class="product-item__description">Размеры 230*80*90см. Спальное место 130*190см</p>
                                             <div class="product-item__actions">
-                                                <span class="product-item__price">
-                                                  от 19 450 ₽</span>
+                                                <span class="product-item__price">от 19 450 ₽</span>
                                                 <button type="button" class="product-item__buy-button">В корзину</button>
                                        </li>
-                                       <li class="product-item image-prod slide ">
-                                              <input type="radio" name="slider2" id="slider2_1" checked="checked">
-                                              <label for="slider2_1"></label>
-                                              <div>
-                                                  <img class="img1" src="../img/sofa/volna-1.jpg"></div>
-                                              <label for="slider2_2"></label>
-                                              <input type="radio" name="slider2" id="slider2_2">
-                                              <label for="slider2_2"></label>
-                                              <div><img class="img1" src="../img/sofa/volna-2.jpg"></div>
-                                              <label for="slider2_3"></label>
-                                              <input type="radio" name="slider2" id="slider2_2">
-                                              <label for="slider2_2"></label>
-                                              <div><img class="img1" src="../img/sofa/volna-3.jpg"></div>
-                                              <label for="slider2_3"></label>
-                                              <input type="radio" name="slider2" id="slider2_2">
-                                              <label for="slider2_2"></label>
-                                              <div><img class="img1" src="../img/sofa/volna-4.jpg"></div>
-                                              <label for="slider2_3"></label>
-                                              <input type="radio" name="slider2" id="slider2_2">
-                                              <label for="slider2_2"></label>
-                                              <h6 
-                                                  class="product-item__title">2МДФ </h6>
-                                              <p class="product-item__description">
-                                                 Размеры 214*92*92см
-                                                 Спальное место 120*190см
-                                              </p>
+                                       <li class="product-item image-prod ">
+                                                  <img class="product-item__picture" src="../img/sofa/volna-1.jpg">
+                                              <h3 class="product-item__title">2МДФ </h3>
+                                              <p class="product-item__description">Размеры 214*92*92см. Спальное место 120*190см</p>
                                               <div class="product-item__actions">
-                                                  <span class="product-item__price">
-                                                    от 19 450 ₽</span>
+                                                  <span class="product-item__price">от 19 450 ₽</span>
                                                   <button type="button" class="product-item__buy-button">В корзину</button>
                                         </li>
                                         <li class="product-item image-prod ">
-                                          <img
-                                              src="/Vasilisa/img/sofa/elvira-1.jpg"
-                                              alt=""
-                                              class="product-item__picture"/>
-                                          <h6 class="product-item__title">Эльвира 4</h6>
+                                          <img src="/Vasilisa/img/sofa/elvira-1.jpg" class="product-item__picture"/>
+                                          <h3 class="product-item__title">Эльвира 4</h3>
                                           <p class="product-item__description"> </p>
                                           <div class="product-item__actions">
-                                              <span class="product-item__price">
-                                                от 32 200 ₽</span>
+                                              <span class="product-item__price"> от 32 200 ₽</span>
                                               <button type="button" class="product-item__buy-button">В корзину</button>
                                           </li>
-                                          <li class="product-item image-prod slide ">
-                                            <input type="radio" name="slider2" id="slider2_1" checked="checked">
-                                            <label for="slider2_1"></label>
-                                            <div>
-                                                <img class="img1" src="../img/sofa/modulnaya-brigantina-1.jpg"></div>
-                                            <label for="slider2_2"></label>
-                                            <input type="radio" name="slider2" id="slider2_2">
-                                            <label for="slider2_2"></label>
-                                            <div><img class="img1" src="../img/sofa/modulnaya-brigantina-2.jpg"></div>
-                                            <label for="slider2_3"></label>
-                                            <input type="radio" name="slider2" id="slider2_2">
-                                            <label for="slider2_2"></label>
-                                            <div><img class="img1" src="../img/sofa/modulnaya-brigantina-3.jpg"></div>
-                                            <label for="slider2_3"></label>
-                                            <input type="radio" name="slider2" id="slider2_2">
-                                            <label for="slider2_2"></label>
-                                            
-                                            <h6 
-                                                class="product-item__title">2МДФ </h6>
-                                            <p class="product-item__description">
-                                               Размеры 214*92*92см
-                                               Спальное место 120*190см
-                                            </p>
+                                          <li class="product-item image-prod ">
+                                            <img class="product-item__picture" src="../img/sofa/modulnaya-brigantina-1.jpg"></div>
+                                            <h3 class="product-item__title">2МДФ </h3>
+                                            <p class="product-item__description">Размеры 214*92*92см. Спальное место 120*190см</p>
                                             <div class="product-item__actions">
-                                                <span class="product-item__price">
-                                                  от 19 450 ₽</span>
+                                                <span class="product-item__price">от 19 450 ₽</span>
                                                 <button type="button" class="product-item__buy-button">В корзину</button>
                                       </li>
                         </ul>
